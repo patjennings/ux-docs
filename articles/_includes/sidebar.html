@@ -1,0 +1,24 @@
+<h1 class="site-title">{{ site.title | escape }}</h1>
+<div class="wrapper">
+  {% assign default_paths = site.pages | map: "path" %}
+  {% assign page_paths = site.header_pages | default: default_paths %}
+
+  <!-- Introduction -->
+  <ul class="site-nav">
+    <li {% if page.url == '/' %}class="active"{% endif %}><a href="{{ "" | relative_url }}{{ item.url }}/index.html" class="nav-link">Introduction</a></li>
+  </ul>
+  
+  {% for category in site.category-list %}
+  <h4>{{category}}</h4>
+  <ul class="site-nav">
+    {% assign sorted = (site.pages | sort: 'page_weight') %}
+    {% for item in sorted %}
+    {% if item.category == category%}
+    <li {% if page.url == item.url %}class="active"{% endif %}><a href="{{ "" | relative_url }}{{ item.url }}" class="nav-link" >{{ item.title }} <small class="text-muted">{{item.categories}}</small></a></li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  {% endfor %}
+  
+</div>
+

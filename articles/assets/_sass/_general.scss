@@ -1,0 +1,12 @@
+html, body{
+    font-family: "sans", Helvetica, Arial, sans-serif;
+    color: var(--dark);
+}
+
+.docs-main{
+    padding-left: 320px;
+
+    .docs-main--inner{
+        padding: 32px;
+    }
+}
