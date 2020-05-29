@@ -5,7 +5,7 @@ The documentation is built with [Jekyll](https://jekyllrb.com/).
 To launch,
 
 ``` bash
-cd time-tracker/docs
+cd folder
 ```
 
 then,
