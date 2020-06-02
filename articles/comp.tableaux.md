@@ -15,7 +15,7 @@ Pour chacun de ces affichages, on utilsera le composant [tableau](https://getboo
 
 On utilisera différents éléments dans chaque ligne de tableau, qui permettront de caractériser et de hiérarchiser l'information
 
-[ une ligne de tableau complexe ]
+![modale-contexte](assets/images/comp.tableaux-1.png)
 
 ## Utilisations ##
 
@@ -23,11 +23,11 @@ On utilisera différents éléments dans chaque ligne de tableau, qui permettron
 
 Voir la page du [gabarit de liste](gabarits.listes.html#vue-tableau)
 
-[ vue d'un gabarit liste ]
+![modale-contexte](assets/images/comp.tableaux-2.png)
 
 #### reprise d'une vue tableau en sous-catégorie d'un objet ####
 
-[ exemple ]
+![modale-contexte](assets/images/comp.tableaux-3.png)
 
 Les tableaux sont également utilisés au sein du détail d'un élément (une liste de demandes d'achat dans un dossier e.g.). On utilisera le même composant, auquel on aura retiré quelques informations non nécessaires.
 
@@ -39,15 +39,15 @@ Les tableaux sont également utilisés au sein du détail d'un élément (une li
 
 #### Vue dédiée pour les besoins et le chiffrage d'un dossier ####
 
-[ capture excerpt ]
+![modale-contexte](assets/images/comp.tableaux-4.png)
 
 En plus des principes évoqués ici, ces éléments de l'objet *dossier* auront des besoins spécifiques. Ces besoins sont développés dans la section [dossier](ui.dossier.html)
 
 ## Tri des colonnes ##
 
-[ capture ]
+![modale-contexte](assets/images/comp.tableaux-5.png)
 
-Au clic sur l'en-tête d'une colonne, le tableau est trié en fonction des données de celle-ci. Le comportement de l'en-tête est une comportement de *toggle*, et on alterne donc entre un tri *descendant* et un tri *ascendant*. Pour un tri descendant, on affiche à côté de l'en-tête une icone `arrowdown`. Pour un tri ascendant, on affiche une icone `arrowup`.
+Au clic sur l'en-tête d'une colonne, le tableau est trié en fonction de celle-ci. Le comportement de l'en-tête est un comportement de *toggle*, et on alterne donc entre un tri *descendant* et un tri *ascendant*. Pour un tri descendant, on affiche à côté de l'en-tête une icone `arrowdown`. Pour un tri ascendant, on affiche une icone `arrowup`.
 
 Les cellules de la colonne qui contrôle le tri du tableau sont alors colorées avec `--light`.
 

@@ -9,7 +9,7 @@ category: "composants"
 
 Le modèle de carte présenté ici sert à afficher des lignes offres. Les offres sont présentes dans des objets de type [Offres](ui.offres.html) ou [demandes d'achat](ui.demandes-achat.md).
 
-[ capture contexte ]
+![cartes-contexte](assets/images/5.3-dossier.article.lignes-offres-grille-active.png)
 
 ## Carte par défaut ##
 
@@ -19,7 +19,10 @@ Par défaut, toutes les lignes d'offres sont affichées dans cet état. Si une l
 
 <div class="card" style="width: 20rem;">
     <div class="card-header">
-	Ingelec<span class="small text-muted" style="margin-left:0.5rem;">LOF-00128</span><i class="ico ico-medium" style="position: absolute; right: 6px; color: #5C6975;">dots_v</i>
+	Ingelec<span class="small text-muted" style="margin-left:0.5rem;">LOF-00128</span>
+	<button type="button" class="close" style="position: absolute; right: 6px;">
+		<i class="ico ico-medium">dots_v</i>
+	</button>
     </div>
     <ul class="list-group list-group-flush">
 	<li class="list-group-item"><span class="text-muted w-75 d-inline-block">Qté consultations</span>10</li>
@@ -52,7 +55,9 @@ Par défaut, toutes les lignes d'offres sont affichées dans cet état. Si une l
     <div class="card-header">
 	Ingelec
 	<span class="small text-muted ml-1">LOF-00128</span>
-	<i class="ico ico-medium position-absolute" style="right: 6px; color: var(--secondary)">dots_v</i>
+	<button type="button" class="close" style="position: absolute; right: 6px;">
+		<i class="ico ico-medium">dots_v</i>
+	</button>
     </div>
     <ul class="list-group list-group-flush">
 	<li class="list-group-item">
@@ -101,7 +106,9 @@ Dès qu'une ligne d'offre est sélectionnée, sa carte devient active et change 
 
 <div class="card text-white" style="width: 20rem; background-color:#5AB445;">
     <div class="card-header">
-	Ingelec<span class="small" style="margin-left:0.5rem; opacity:0.5;">LOF-00128</span><i class="ico ico-medium" style="position: absolute; right: 6px;">dots_v</i>
+	Ingelec<span class="small" style="margin-left:0.5rem; opacity:0.5;">LOF-00128</span><button type="button" class="close" style="position: absolute; right: 6px; color: var(--white)">
+		<i class="ico ico-medium">dots_v</i>
+	</button>
     </div>
     <ul class="list-group list-group-flush">
 	<li class="list-group-item" style="background-color: #5AB445;"><span class="w-75 d-inline-block" style="opacity: 0.75;">Qté consultations</span>10</li>
@@ -138,7 +145,9 @@ Dès qu'une ligne d'offre est sélectionnée, sa carte devient active et change 
     <div class="card-header">
 	Ingelec
 	<span class="small ml-1">LOF-00128</span>
-	<i class="ico ico-medium position-absolute" style="right: 6px;">dots_v</i>
+	<button type="button" class="close" style="position: absolute; right: 6px; color: var(--white)">
+		<i class="ico ico-medium">dots_v</i>
+	</button>
     </div>
     <ul class="list-group list-group-flush">
 	<li class="list-group-item">

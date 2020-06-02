@@ -16,7 +16,9 @@ La carte remonte les titres, identifiant, date d'ajout du document. Un badge men
 
 <div class="card mb-2">
     <div class="card-body">
-	<i class="ico ico-medium position-absolute" style="right: 4px;">dots_v</i>
+	<button type="button" class="close" style="position: absolute; right: 6px;">
+		<i class="ico ico-medium">dots_v</i>
+	</button>
 	<h5 class="card-title mt-0 font-weight-bold">doc_addl_20200515.pdf <span class="small text-muted ml-2">DOC-256789</span><span class="badge badge-primary ml-3 small">Accès fournisseur</span></h5>
 	<h6 class="card-subtitle mb-2 text-muted">Ajouté le 18 nov. 2019</h6>
 	<div class="container">
@@ -56,7 +58,9 @@ Les notes sont accessibles, dans chaque élément, via un onglet *Notes* <i clas
 
 <div class="card mb-2">
     <div class="card-body">
-	<i class="ico ico-medium position-absolute" style="right: 4px;">dots_v</i>
+	<button type="button" class="close" style="position: absolute; right: 6px;">
+		<i class="ico ico-medium">dots_v</i>
+	</button>
 	<h6 class="card-title mt-0 font-weight-bold">Information générale</h6>
 	<p class="card-subtitle mb-2 text-muted">Par <strong>Jeanne Balafon</strong>, le 15 mai 2019</p>
 	<p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>

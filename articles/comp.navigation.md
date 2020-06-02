@@ -7,7 +7,7 @@ category: "composants"
 * table of contents
 {:toc}
 
-[ capture ]
+![modale-contexte](assets/images/comp.navigation-1.png)
 
 La barre de navigation générale est le point d'entrée de multiples actions dans l'interface. C'est un composant qui sert à :
 - Naviguer entre les différents objets
@@ -18,7 +18,7 @@ La barre de navigation générale est le point d'entrée de multiples actions da
 
 À ce titre, il sera important de particulièrement soigner son aspect et ses interactions, c'est pourquoi les spécifications de celui-ci sont aussi précises. Dans la mesure où ce menu est de fond sombre, il sera nécessaire d'adapter les composants qui y seront intégrés (`input` de la recherche, `dropdown`).
 
-[ zoning]
+![modale-contexte](assets/images/comp.navigation-2.png)
 
 ## Règles générales ##
 On applique à ce menu un padding de `16px`. 
@@ -87,6 +87,13 @@ Ce nuancier présente les couleurs utilisées dans ce menu.
 	</div>
     </div>
 	</div>
+	
+#### Défilement ####
+En cas de réduction du *viewport*, la zone de navigation est réduite, et devient *scrollable*. Les zones *fixe haute* et *fixe basse* sont affichées au premier plan.
+<br/><br/>
+![modale-contexte](assets/images/comp.navigation-1.2.png)
+
+
 ## Logo ##
 Le logo à afficher ici est disponible [dans les fichiers](ressources.fichiers.md)
 
@@ -156,9 +163,9 @@ Voir [Notifications](comp.notifications.html)
 
 ## Comportement ##
 
-À la connexion de l'utilisateur, le menu est déplié par défaut. L'utilisateur peut le réduire en cliquant sur <i class="ico ico-medium">menu_v</i>.
+À la connexion de l'utilisateur, le menu est déplié (visible) par défaut. L'utilisateur peut le réduire en cliquant sur <i class="ico ico-medium">menu_v</i>.
 
-[ capture ]
+![modale-contexte](assets/images/comp.navigation-3.png)
 
 #### Réduction ####
 Le menu est alors réduit à une barre verticale de `64px`, de fond `#212126`. Il affiche une icone `menu`, et les quatre icones de sections. Au clic sur l'icone correspondant au dashboard, on accède au dashboard. 
@@ -167,7 +174,7 @@ Le menu est alors réduit à une barre verticale de `64px`, de fond `#212126`. I
 
 Au `:hover` sur *Achats*, *Sourcing* ou *Qualité*, ses accès apparaissent dans un conteneur de fond `#212126`. On appliquera à ce conteneur un léger `border-radius` (`3px`). On reproduit à l'intérieur l'affichage exact de la section correspondante.
 
-[ capture conteneur ]
+![modale-contexte](assets/images/comp.navigation-4.png)
 
 #### Retour à l'état initial ####
 
