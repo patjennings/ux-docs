@@ -23,11 +23,10 @@ On utilisera différents éléments dans chaque ligne de tableau, qui permettron
 
 Voir la page du [gabarit de liste](gabarits.listes.html#vue-tableau)
 
-![modale-contexte](assets/images/comp.tableaux-2.png)
+
 
 #### reprise d'une vue tableau en sous-catégorie d'un objet ####
-
-![modale-contexte](assets/images/comp.tableaux-3.png)
+![modale-contexte](assets/images/comp.tableaux-2.png)
 
 Les tableaux sont également utilisés au sein du détail d'un élément (une liste de demandes d'achat dans un dossier e.g.). On utilisera le même composant, auquel on aura retiré quelques informations non nécessaires.
 
@@ -39,6 +38,9 @@ Les tableaux sont également utilisés au sein du détail d'un élément (une li
 
 #### Vue dédiée pour les besoins et le chiffrage d'un dossier ####
 
+###### Besoins ######
+![modale-contexte](assets/images/comp.tableaux-3.png)
+###### Chiffrage ######
 ![modale-contexte](assets/images/comp.tableaux-4.png)
 
 En plus des principes évoqués ici, ces éléments de l'objet *dossier* auront des besoins spécifiques. Ces besoins sont développés dans la section [dossier](ui.dossier.html)

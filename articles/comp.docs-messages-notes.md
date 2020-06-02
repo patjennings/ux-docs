@@ -77,7 +77,8 @@ Les notes sont accessibles, dans chaque élément, via un onglet *Notes* <i clas
 Le menu (icone `dots_v`) affiche les options suivantes. La note peut-être envoyée à un intervenant extérieur.
 
 <div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem; width: 12rem;">
-    <a class="dropdown-item" href="#">Modifier</a>
 	<a class="dropdown-item" href="#">Envoyer la note</a>
+<div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Modifier</a>
     <a class="dropdown-item" href="#">Supprimer</a>
 </div>
