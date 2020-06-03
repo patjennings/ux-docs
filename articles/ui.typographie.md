@@ -9,7 +9,7 @@ category: "ui"
 
 La police de caractère utilisée dans l'interface est la [Lato](https://fonts.google.com/specimen/Lato), de Google. Elle est choisi pour son élégance et sa lisibilité, aussi bien en texte qu'en titrage.
 
-[ Spécimen rapide ]
+![ Spécimen rapide ](assets/images/ui.typographie.png)
 
 #### Exemples d'utilisation ####
 

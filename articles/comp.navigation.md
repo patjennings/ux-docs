@@ -7,8 +7,6 @@ category: "composants"
 * table of contents
 {:toc}
 
-![modale-contexte](assets/images/comp.navigation-1.png)
-
 La barre de navigation générale est le point d'entrée de multiples actions dans l'interface. C'est un composant qui sert à :
 - Naviguer entre les différents objets
 - Effectuer des recherches globales
@@ -16,8 +14,13 @@ La barre de navigation générale est le point d'entrée de multiples actions da
 - Accéder aux paramètres système et aux paramètres utilisateur
 - Notifier l'utilisateur
 
+![modale-contexte](assets/images/comp.navigation-1.png)
+
 À ce titre, il sera important de particulièrement soigner son aspect et ses interactions, c'est pourquoi les spécifications de celui-ci sont aussi précises. Dans la mesure où ce menu est de fond sombre, il sera nécessaire d'adapter les composants qui y seront intégrés (`input` de la recherche, `dropdown`).
 
+
+## Zoning ##
+Voici les éléments qui constituent ce composant.
 ![modale-contexte](assets/images/comp.navigation-2.png)
 
 ## Règles générales ##

@@ -7,9 +7,9 @@ category: "ui"
 * table of contents
 {:toc}
 
-[ illustration ]
+![ illustration ](assets/images/ui.icones.png)
 
-Toutes les icones utilisées dans l'interface sont tirées du jeu d'icones Pajeweic. Lorsqu'une icone est évoquée dans cette documentation, elle est référencée par la chaine de caractère qui permet de l'afficher.
+Toutes les icones utilisées dans l'interface sont tirées du [jeu d'icones Pajeweic](http://platform.thomasguesnon.net/pajeweic/). Lorsqu'une icone est évoquée dans cette documentation, elle est référencée par la chaine de caractère qui permet de l'afficher.
 
 ## Utilisations ##
 

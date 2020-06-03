@@ -10,18 +10,17 @@ category: "gabarits"
 Ce gabarit d'écran est celui qui sera utilisé pour l'affichage d'une occurence d'un objet, comme un dossier, un article, une société, etc.
 
 ## Zoning ##
-
-[ zoning, nommage des zones ]
+![zoning](assets/images/gabarits.details-1.png)
 
 ## En-tête ##
 
 Le principe de l'en-tête est d'avoir toujours sous les yeux, où que l'on soit dans ses sous-parties, aux informations principales de l'objet affiché, et de pouvoir avoir rapidement accès, à la possibilité de modifier les informations générales de cet objet.
 
-{ex. carte d'un dossier}
+![ex. carte d'un dossier](assets/images/gabarits.details-2.png)
 
 Cette partie est fixe, c'est à dire que tout défilement dans la page ne fait pas sortir ce composant du *viewport*. 
 
-[layout grille]
+![layout grille](assets/images/gabarits.details-3.png)
 
 Ce composant affiche trois informations principales :
 - l'identification de l'élément affiché
@@ -47,17 +46,17 @@ Si la donnée est centrale (*e.g.* le budget d'un dossier), on l'affichera sur *
 - libellé `<p class="text-muted">`
 - en dessous : la valeur `<h3>`
 
-[exemple INFO IMPORTANTE]
+![exemple INFO IMPORTANTE](assets/images/gabarits.details-4.png)
 
 Pour toute autre information, on affichera l'information *inline*, sur **4 colonnes**
 - libellé `<p class="text-muted">` 
 - *inline*, la valeur `<p>`
 
-[exemple avec que infos inline]
+![exemple avec que infos inline](assets/images/gabarits.details-5.png)
 
 #### Exemple : un dossier ####
 
-[ capture ]
+![ capture ](assets/images/gabarits.details-6.png)
 
 Décomposé en deux parties
 Sur 8 colonnes, on trouve groupés :
@@ -76,7 +75,7 @@ La dernière colonne sert à placer le bouton d'accès à la modification de l'�
 
 #### Informations d'un élément parent ####
 
-[ capture ]
+![ capture ](assets/images/gabarits.details-7.png)
 
 Comme les objets ont une interdépendance forte (une demande d'achat, une consultation ou une offre est liée à un dossier), il y a dans les cartes des objet qui dépendetn d'un parent (e.g. une consultation), un lien et une synthèse d'information de l'objet parent (un dossier)
 
@@ -101,7 +100,7 @@ On sépare le rappel de l'objet parent des informations de l'élément par une l
 
 #### Modification du contenu ####
 
-[ capture ]
+![ capture ](assets/images/4.2.2-dossier.png)
 
 Un clic sur l'icone présente en haut à droite de l'en-tête (icone `dots_v`) donne accès aux options de modifications du contenu. Deux options sont accessibles.
 
@@ -118,13 +117,11 @@ Le clic sur l'option `Modifier` ouvre une [fenêtre modale](comp.modales.html) q
 
 Les informations provenant d'autres objets sont alignés à gauche. Ils peuvent accueillir un [*pill-badge*](https://getbootstrap.com/docs/4.5/components/badge/#pill-badges) qui leur permet de remonter une quantité d'éléments notables sous cet onglet.
 
-[ capture ]
+![ capture ](assets/images/gabarits.details-8.png)
 
-Les éléments _joints_ (notes ou documents) sont quant à eux alignés sur la droite. Les libellés de ces onglets sont accompagnés d'un icône
+Les éléments _joints_ (notes ou documents) sont quant à eux alignés sur la droite. Les libellés de ces onglets sont accompagnés d'une icône ― `notes` et `file_o`.
 
-[ code icones ]
-
-[ exemple ]
+![ exemple ](assets/images/gabarits.details-9.png)
 
 
 ## Zone de contenu ##

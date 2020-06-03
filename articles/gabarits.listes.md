@@ -11,7 +11,7 @@ Ce gabarit d'écran est celui qui sera utilisé pour l'affichage des listes d'ob
 
 ## Zoning ##
 
-[ zoning, nommage des zones ]
+![ zoning, nommage des zones ](assets/images/gabarits.liste-2.png)
 
 ## Barre de recherche et d'actions ##
 
@@ -39,7 +39,7 @@ Si aucune des options du menu déroulant n'est cochée, la liste remonte tous le
 
 Immédiatement à sa droite, vient se placer un toggle, qui permet de basculer entre une vision *liste* et une vision *carte* (icones `bullet_list` et `grid`).
 
-[ illustration (mise en valeur du composant )]
+![ illustration (mise en valeur du composant )](assets/images/gabarits.liste-3.png)
 
 Plus de détails, voir [recherche](ux.recherche.html)
 
@@ -48,7 +48,7 @@ Dans cette ligne, on ajoutera, aligné sur la droite, [les boutons](https://getb
 
 C'est une action importante, aussi ce bouton est il coloré avec `--primary`, pour favoriser sa visibilité.
 
-[ exemple ]
+![ exemple ](assets/images/gabarits.liste-4.png)
 
 ## Alerte ##
 
@@ -60,7 +60,7 @@ La liste de résultats peut s'afficher de deux façons : par l'intermédiaire d'
 
 #### Vue tableau ####
 
-[ illustration (mise en valeur du composant )]
+![ illustration (mise en valeur du composant )](assets/images/gabarits.liste-5.png)
 
 C'est la vue par défaut. Elle est basée sur les principes de la section
 
@@ -74,21 +74,45 @@ Plus de détails sur la vue [tableaux](comp.tableaux.html), et notamment sur le 
 
 #### Vue grille ####
 
-[ capture  ]
+![ capture  ](assets/images/gabarits.liste-6.png)
 
 La vue *grille* est constituée [de cartes avec titre et sous-titre](https://getbootstrap.com/docs/4.5/components/card/#titles-text-and-links). Chaque carte est établie sur 4 colonnes de largeur (à ajuster en fonction des informations à remonter dans chacune).
 
-[ capture élément seul ]
+<div class="card" style="width: 22rem; margin-bottom: 24px;">
+  <div class="card-body">
+  <button type="button" class="close" style="position: absolute; right: 6px;">
+		<i class="ico ico-medium">dots_v</i>
+	</button>
+    <h5 class="card-title font-weight-bold mt-0">Calculateur</h5>
+    <h6 class="card-subtitle text-muted">Interne<span class="font-weight-lighter ml-2">DOS-51234</span></h6>
+	<div class="container mt-3">
+		<div class="row">
+			<div class="col pl-0">
+				<p class="card-text text-muted mb-1">Budget</p>
+				<h5 class="card-text mt-0 font-weight-bold">50 000 €</h5>
+			</div>
+	   		<div class="col">
+				<p class="card-text text-muted mb-1">Offres</p>
+				<h5 class="card-text mt-0 font-weight-bold" style="color: var(--success);">2 reçues</h5>
+			</div>
+		</div>
+	</div>
+	<p class="card-text text-muted mt-3 mb-0"><i class="ico ico-medium mr-2">clock</i>Échéance dans 18 jours</p>
+  </div>
+</div>
 
 Cette vue offre la possibilité de hiérarchiser les données de chaque élément. Dans le cas d'un dossier, on peut notamment ajouter, dans le corps de la carte, un budget ou une quantité d'offres reçues de la sorte :
 - le libellé `<p class="text-muted">`
 - le valeur `<h5>`
 
-On peut également afficher, en bas de carte, une information lié à l'échéance du dossier `<p class="text-muted">`, accompagnée d'une icone `clock`
+On peut également afficher, en bas de carte, une information lié à l'échéance du dossier `<p class="text-muted">`, accompagnée d'une icone `clock`.
 
 #### Zone d'état (nombre de résultats, actualisé par le filtrage) ####
 
 Cette zone permet d'afficher le nombre de résultats remontés pour la configuration actuelle de la liste. Par défaut, il comptabilise l'ensemble des résultats, qu'ils soient ou pas dans le *viewport*.
+
+![ capture élément seul ](assets/images/gabarits.liste-7.png)
+
 À partir du moment où la liste est filtrée (application d'un filtre à partir du menu déroulant ou entrée d'une chaine de caractères dans le champ de recherche), ce chiffre est actualisé.
 
 Cette zone occupe une hauteur de `48px`, de fond `--white` et surmonté d'un filet de 1px de couleur `#DFDFDF`. Le nombre de résultat est affiché via `<p class="small text-muted">`.
@@ -100,6 +124,9 @@ La liste remonte en premier lieu la quantité de résultats affichable dans le v
 
 ## Reprise des listes ##
 
-Les listes peuvent être reprises dans certains onglets d'autres types d'objets. 
-Qu'y retrouve-t-on ?
-Où amène le clic ?
+Les listes, sous forme de tableau, peuvent être reprises dans certains onglets d'autres types d'objets. On y retrouvera uniquement les informations qui ne feront pas doublon dans leur contexte de reprise. 
+
+Au clic, le comportement par défaut est le suivant : l'utilisateur est dirigé vers l'écran de détail de l'ocurrence cliquée. 
+
+> Un clic sur une ligne de liste, quel que soit son contexte d'affichage (*page liste* ou *reprise de liste*), amène toujours au même endroit.
+

@@ -53,7 +53,7 @@ Le menu déroulant du filtre pourra être composé des options suivantes (ces op
 
 En plus du nom du dossier, les informations de **budget** et de **délai** sont mises en avant.
 
-> Plus de détails dans les [spécifications de l'en-tête](comp.entetes.html)
+> Plus de détails dans les [spécifications de l'en-tête](gabarits.details#en-tête.html)
 
 #### Paramètres du dossier ####
 

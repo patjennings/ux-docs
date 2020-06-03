@@ -9,12 +9,11 @@ category: "composants"
 
 Dès qu'un utilisateur doit ajouter ou modifier des informations, il le fait dans une fenêtre modale. Le changement visuel traduit le changement de posture de l'utilisateur : de cette façon, les actions d'écriture par l'utilisateur sont visuellement séparées des actions de lecture, ou des actions opérées par le système. 
 
-Il permet en outre de poser un cadre cohérent à ces actions de saisie, et de mutualiser des composants (côté développement) et des façons de faire (côté utilisateur). 
+> L'utilisation de la fenêtre modale permet de poser un cadre cohérent à des actions de saisie, et de mutualiser des composants (côté développement) et des façons de faire (côté utilisateur). 
 
 Il permet, dans certains cas particuliers, d'afficher des données en lecture (historique de l'évaluation d'une société *in* [Société](ui.societes.html), accès à une vue statistique dans le [chiffrage d'un dossier](ui.dossiers.html) )
 
 ![modale-contexte](assets/images/4.2.2-dossier.png)
-
 
 ## Types de modales ##
 
