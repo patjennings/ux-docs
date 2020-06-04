@@ -44,11 +44,11 @@ Il y a deux façons de traiter une de ces données dynamiques.
 Si la donnée est centrale (*e.g.* le budget d'un dossier), on l'affichera sur **2 colonnes** de la façon suivante :
 
 - libellé `<p class="text-muted">`
-- en dessous : la valeur `<h3>`
+- en dessous : la valeur `<h3>` ou `<p>`
 
 ![exemple INFO IMPORTANTE](assets/images/gabarits.details-4.png)
 
-Pour toute autre information, on affichera l'information *inline*, sur **4 colonnes**
+Pour toute autre information, on affichera l'information *inline*, sur **3 à 4 colonnes**
 - libellé `<p class="text-muted">` 
 - *inline*, la valeur `<p>`
 
