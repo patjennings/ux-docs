@@ -2,7 +2,7 @@
 title: Couleurs
 layout: page
 page_weight: -9
-category: "ui"
+category: "composants"
 ---
 * table of contents
 {:toc}

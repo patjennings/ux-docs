@@ -2,7 +2,7 @@
 title: Graphiques
 layout: page
 page_weight: -6
-category: "ui"
+category: "composants"
 ---
 * table of contents
 {:toc}

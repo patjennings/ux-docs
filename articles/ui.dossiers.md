@@ -13,7 +13,7 @@ Le dossier est un élément central du système. Il embarque des fonctionnalité
 
 Au clic sur la section dans la navigation principale, on affiche la liste des dossiers en cours.
 
-![Recherche globale](assets/images/3.1-dossiers.liste.png)
+![ecran](assets/images/3.1-dossiers.liste.png)
 
 Cet écran utilise les spécifications du [gabarit d'écran de liste](gabarits.listes.html)
 
@@ -47,7 +47,7 @@ Le menu déroulant du filtre pourra être composé des options suivantes (ces op
 
 ## Détail ##
 
-![Recherche globale](assets/images/4.1-dossier.png)
+![ecran](assets/images/4.1-dossier.png)
 
 #### En-tête ####
 
@@ -57,7 +57,7 @@ En plus du nom du dossier, les informations de **budget** et de **délai** sont 
 
 #### Paramètres du dossier ####
 
-[ capture paramètres ]
+![ecran](assets/images/4.2.2-dossier.png)
 
 #### Demandes d'achat et consultations ####
 
@@ -71,7 +71,7 @@ Immédiatement en dessous, [on retrouve une liste](gabarits.listes.html) de dema
 
 **Le clic sur une des lignes de tableaux renvoie vers l'objet correspondant, dans son contexte d'origine** (si c'est une demande d'achat, l'utilisateur est renvoyé vers la page *détail* de la demande d'achat en question).
 
-![Recherche globale](assets/images/4.3-dossier.png)
+![ecran](assets/images/4.3-dossier.png)
 
 #### Besoins ####
 La vue qui permet de gérer les besoins du dossier est construite sur une [base de gabarit liste avec vue tableau](gabarits.listes.html#vue-tableau).
@@ -109,7 +109,7 @@ Dès qu'une demande d'achat est effectuée, la ou les lignes de tableau concern�
 Ensuite, on retrouve une vue tableau possédant quelques fonctionnalités supplémentaires
 
 ##### Lignes de sections #####
-[capture]
+![capture](assets/images/ui.dossiers-1.png)
 
 Chaque ligne de section est matérialisée par un fond `--light`. Elle affiche :
 - une checkbox, qui permet de sélectionner tous les éléments de la section
@@ -126,7 +126,7 @@ Chaque ligne possède un menu d'options, aligné à droite (icone `dots_v`), qui
   <a class="dropdown-item" href="#">Supprimer</a>
 </div>
 ##### Lignes de tableaux #####
-[capture]
+![capture](assets/images/ui.dossiers-2.png)
 
 Chaque ligne de [tableau](comp.tableaux.html) affiche :
 - une checkbox, qui permet de sélectionner l'élément, pour pouvoir ensuite l'intégrer dans un lancement global de consultations ou de demandes d'achat. si le besoin n'est pas accessible à l'utilisateur, cette checkbox reste affichée, mais est désactivée
@@ -156,7 +156,7 @@ Si une demande d'achat et une consultation sont lancées sur cette ligne, le men
 
 #### Chiffrage ####
 
-[ capture ]
+![capture](assets/images/ui.dossiers-3.png)
 
 La vue qui permet d'effectuer le chiffrage est construite sur une [base de gabarit liste avec vue tableau](gabarits.listes.html#vue-tableau)
 Elle possède un champ de recherche avec filtre, permettant de rechercher dans la liste des lignes de chiffrage.
@@ -167,7 +167,7 @@ Un menu d'options (icone `dots_v`) permet d'avoir accès à des fonctionnalités
 
 ##### Ligne de chiffrage #####
 
-[ ligne chiffrage ]
+![capture](assets/images/ui.dossiers-4.png)
 
 Ensuite, on retrouve une vue tableau possédant quelques fonctionnalités supplémentaires
 
@@ -196,7 +196,7 @@ L'option de consultation d'offre renvoie vers une page de détail de l'offre cor
 
 ##### Résultat #####
 
-[ capture ]
+![capture](assets/images/ui.dossiers-5.png)
 
 Au bas de ce tableau, on affiche une zone qui détaille le résultat du chiffrage. Celle-ci, comme [l'en-tête](comp.entetes.html), est fixe. Cela signifie que le défilement du tableau contenant les lignes de chiffrage laissera toujours visible ce composant au bas du *viewport*.
 
@@ -243,9 +243,6 @@ Si l'opération de chiffrage remonte des anomalies qui corrompent le coût globa
 Si ce critère de chiffrage se voit *overridé* par un critère spécifique, choisi par l'utilisateur pour une ligne de chiffrage (voir ci-dessus *Ligne de chiffrage*), on affiche alors un badge de couleur `--warning` à côté du libellé du critère de chiffrage, et affichant *Spécifique*. La conjonction de cet élément, avec la couleur de la ligne qui bénéficie d'un critère spécifique, rend visible l'état actuel du chiffrage. 
 
 #### Statistiques ####
-
-[ capture ]
-
 Après le lancement d'un chiffrage, des statistiques pertinentes permettent à l'utilisateur de prendre des décisions quant au choix des offres. Ces statistiques prennent la forme de [graphiques](ui.graphiques.html), qui sont chacun affichés dans des [cartes avec titres et sous-titres <i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/card/#titles-text-and-links). Ces graphiques sont actualisés à chaque changement dans le chiffrage.
 
-#### Éléments ####
+![ecran](assets/images/ui.dossiers-6.png)

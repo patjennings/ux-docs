@@ -15,6 +15,10 @@
 	    // max-width: calc(65vw);
 	    // width: 120%;
 	    // border: 1px solid #e9e9e9;
+
+	    &[alt="ecran"]{
+		width: 120%;
+	    }
 	}
 
 	// menu de navigation interne

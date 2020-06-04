@@ -73,6 +73,11 @@ Sur les 8 colonnes suivantes, on affiche les informations de budget, de délai, 
 
 La dernière colonne sert à placer le bouton d'accès à la modification de l'élément (icone `dots_v`)
 
+#### Alerte ####
+Il est parfois nécessaire de remonter une information de premier ordre sur un élément. On utilisera pour cela, comme dans les listes, un élément Alerte, qui sera placé entre les informations générales de l'élément, et les onglets de sous-navigation.
+
+[capture]
+
 #### Informations d'un élément parent ####
 
 ![ capture ](assets/images/gabarits.details-7.png)
@@ -100,7 +105,7 @@ On sépare le rappel de l'objet parent des informations de l'élément par une l
 
 #### Modification du contenu ####
 
-![ capture ](assets/images/4.2.2-dossier.png)
+![ecran](assets/images/4.2.2-dossier.png)
 
 Un clic sur l'icone présente en haut à droite de l'en-tête (icone `dots_v`) donne accès aux options de modifications du contenu. Deux options sont accessibles.
 

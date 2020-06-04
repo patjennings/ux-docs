@@ -2,7 +2,7 @@
 title: Grille
 layout: page
 page_weight: -10
-category: "ui"
+category: "composants"
 ---
 * table of contents
 {:toc}
@@ -18,11 +18,11 @@ $grid-gutter-width: 16px !default;
 
 La grille n'englobe pas la navigation principale, sur la gauche. Cela signifie que la largeur des colonnes est redéfinie lorsque cette navigation est repliée.
 
-![ grille avec nav ](assets/images/ui.grille-1.png)
+![ecran](assets/images/ui.grille-1.png)
 
 <hr/>
 
-![ grille avec nav-minified ](assets/images/ui.grille-2.png)
+![ecran](assets/images/ui.grille-2.png)
 
 Les tableaux échappent à ce principe, la largeur des colonnes étant avant tout définie par la quantité de contenu des cellules. On pourra forcer la largeur de certaines colonnes, mais cela échappe au principe de grille décrit ici.
 

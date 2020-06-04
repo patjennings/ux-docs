@@ -2,7 +2,7 @@
 title: Typographie
 layout: page
 page_weight: -8
-category: "ui"
+category: "composants"
 ---
 * table of contents
 {:toc}

@@ -9,7 +9,7 @@ category: "composants"
 
 La recherche globale, à l'échelle de toute l'application, est accessible à partir de la navigation principale, et permet de rechercher dans l'ensemble des objets du système. 
 
-![Recherche globale](assets/images/2.4-dashboard-recherche.png)
+![ecran](assets/images/2.4-dashboard-recherche.png)
 
 #### Description ####
 

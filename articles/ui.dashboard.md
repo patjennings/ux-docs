@@ -9,7 +9,7 @@ category: "ui"
 
 Immédiatement après la connexion, l'utilisateur est accueilli sur cet écran. Son but est de présenter des données récapitulatives, sous forme de _Key Performance Indicators_ (KPI) ou sous forme de [graphiques](ui.graphiques.html).
 
-![Dashboard](assets/images/2.1-dashboard.png)
+![ecran](assets/images/2.1-dashboard.png)
 
 Cet écran permet également de présenter [la navigation principale de l'application](ux.navigation.html#navigation-principale-sidebar)
 

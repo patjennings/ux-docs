@@ -13,7 +13,7 @@ Dès qu'un utilisateur doit ajouter ou modifier des informations, il le fait dan
 
 Il permet, dans certains cas particuliers, d'afficher des données en lecture (historique de l'évaluation d'une société *in* [Société](ui.societes.html), accès à une vue statistique dans le [chiffrage d'un dossier](ui.dossiers.html) )
 
-![modale-contexte](assets/images/4.2.2-dossier.png)
+![ecran](assets/images/4.2.2-dossier.png)
 
 ## Types de modales ##
 
@@ -72,16 +72,11 @@ Voici, ici, quelques exemples d'intégration des composants de base dans une fen
 			</div>
 			<div class="form-group row mb-3">
 			    <div class="col-3"><label for="input2">Client</label></div>
-			    <div class="col-9">
-				<div class="dropdown">
-				    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Client name
-				    </button>
-				    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-					<a class="dropdown-item disabled" href="#">Ce composant est détaillé ci-dessous</a>
-				    </div>
-				</div>
-			    </div>
+
+
+					<div class="col-9"><input type="text" class="form-control" id="input2" value="Ingelec"></div>
+
+    
 			</div>
 			<div class="form-group row mb-3">
 			    <div class="col-3"><label for="input3">Budget</label><p class="text-muted small">Ce texte d'aide indique que le budget est indiqué en {devise du système}</p></div>
@@ -204,25 +199,30 @@ On laissera toujours un espace de `28px` en haut et en bas. Si les informations 
 
 Parfois, le contenu d'une fenêtre peut être tellement important qu'il impose un *layout* particulier. C'est le cas de la fenêtre de modification d'un utilisateur, qui est séparé en deux colonnes : à gauche, les informations générales, à droite, les droits de l'utilisateur. En agrandissant la modale et en appliquant cette mise en place, on évite à l'utilisateur de nombreux scrolls, et il a un maximum d'information sous les yeux.
 
-![modale-contexte](assets/images/13.3-parametres.png)
+![ecran](assets/images/13.3-parametres.png)
 
-## composants spéciaux ##
+## Composants spéciaux ##
 
-#### ajout de société ####
+Les composants/ensemble de comportements ci-dessous détaillent le principe appliqué lorsque l'utilisateur doit ajouter à un élément un autre élément présent dans le système. 
+
+#### Ajout de plusieurs éléments du système ####
+
+Cet ensemble de comportement permet d'ajouter à un élément, un ou plusieurs autres éléments présents dans le système : lors, par exemple, du lancement d'une consultations, il permet d'y ajouter manuellement plusieurs sociétés.
+
+Déroulons cet exemple, à partir de la fenêtre modale de lancement manuel de consultation.
 ![modale-contexte](assets/images/comp.modales-1.png)
 
-<hr/>
-
+À partir de là, un champ de recherche accompagné d'un bouton de validation permet à l'utilisateur de chercher les sociétés présentes dans le système. Un premier clic permet de sélectionner la société, et un second sur le bouton de validation permet d'ajouter cette société. Si la société doit être retirée de ce lancement, un lien disponible au survol permet d'effectuer cette action.
 ![modale-contexte](assets/images/comp.modales-2.png)
 
 
-#### ajout/recherche dropdown ####
-
+#### Ajout d'un élément présent dans le système ####
+Cet ensemble de comportement est similaire à la partie précédente, mais, cette fois, un seul élément doit être ajouté. Lors, par exemple, de l'ajout d'un dossier à un élémént en édition/création.
 ![modale-contexte](assets/images/comp.modales-3.png)
 
-#### Ajout de catégorie ####
-
+Si un utilisateur veut ajouter un élément non encore présent dans le système, une erreur lui est remontée, et l'action principale ne peut être achevée.
 ![modale-contexte](assets/images/comp.modales-4.png)
+
 
 ## Animation ##
 

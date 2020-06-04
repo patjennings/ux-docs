@@ -9,7 +9,7 @@ category: "composants"
 
 Le modèle de carte présenté ici sert à afficher des lignes offres. Les offres sont présentes dans des objets de type [Offres](ui.offres.html) ou [demandes d'achat](ui.demandes-achat.md).
 
-![cartes-contexte](assets/images/5.3-dossier.article.lignes-offres-grille-active.png)
+![ecran](assets/images/5.3-dossier.article.lignes-offres-grille-active.png)
 
 ## Carte par défaut ##
 

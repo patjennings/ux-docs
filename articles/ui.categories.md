@@ -65,7 +65,7 @@ Dès qu'un utilisateur entre une lettre dans le champ de recherche, la liste éd
 
 **Lorsqu'une sous-catégorie est remontée par la recherche, on laisse systématiquement affichée ses catégories parents**
 
-[ capture recherche ]
+![ capture recherche ](assets/images/12.3-categories.png)
 
 #### Ajout d'une catégorie ####
 Un bouton de couleur `--primary`, avec une icone `plus` aligné à gauche, permet d'ajouter une catégorie de premier niveau à la liste éditable. [Une modale](comp.modales.html) est affichée et permet d'entrer le nom de la nouvelle catégorie de premier niveau.
@@ -77,7 +77,7 @@ Pour ajouter des catégories de sous-niveau, on passe au rollover sur la catégo
 Au dessus de la liste se trouvent deux liens, qui permettent de dérouler toute la structure de catégories et d'afficher l'arbre sur toute sa profondeur, ou bien de n'afficher que les catégories de premier niveau.
 
 ## Zone de contenu ##
-[ capture ]
+![capture](assets/images/ui.categories.png)
 
 Sur une largeur de 9 colonnes, on affiche la zone de contenu contrôlée par la liste éditable.
 

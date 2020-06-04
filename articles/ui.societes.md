@@ -10,7 +10,7 @@ category: "ui"
 ## Liste ##
 Au clic sur la section dans la navigation principale, on affiche la liste des sociétés.
 
-![Recherche globale](assets/images/8.1-societes.png)
+![ecran](assets/images/8.1-societes.png)
 
 Cet écran utilise les spécifications du [gabarit d'écran de liste](gabarits.listes.html)
 
@@ -52,7 +52,7 @@ Le menu déroulant du filtre pourra être composé des options suivantes (ces op
 
 ## Détail ##
 
-![Recherche globale](assets/images/8.2-societe.png)
+![ecran](assets/images/8.2-societe.png)
 
 #### En-tête ####
 
@@ -62,7 +62,9 @@ En plus du nom de la société, la **note** correspondant à l'évaluation de la
 
 #### Paramètres de la société ####
 
-[ capture paramètres ]
+Accessible à partir du menu du dossier (icone `dots_v`), les paramètres sont accessibles dans une [fenêtre modale](comp.modales.html)
+
+![ecran](assets/images/ui.societes.png)
 
 #### Achats ####
 Cette sous-section est divisée en deux parties :
@@ -89,7 +91,7 @@ Cette sous-section est divisée en deux parties :
 
 On navigue entre ces deux sous-parties grâce à un [*button group* <i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/button-group/#basic-example)
 
-![Société](assets/images/8.3-societe.png)
+![ecran](assets/images/8.3-societe.png)
 
 On retrouve dans chacune de ces sous-parties
 - une recherche contextuelle à la sous-partie, accompagnée de son filtre
@@ -110,7 +112,7 @@ La sous-section *qualité* est divisée en deux parties :
 
 On navigue entre ces deux sous-parties grâce à un [*button group* <i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/button-group/#basic-example)
  
-![Société, qualité](assets/images/8.4.1-societe.qualite.png)
+![ecran](assets/images/8.4.1-societe.qualite.png)
 
 
 ##### Évaluation #####
@@ -162,7 +164,7 @@ On ajoute également deux éléments par rapport à une ligne de tableau par dé
 
 #### Informations fournisseur ####
 
-[ capture ]
+![ecran](assets/images/ui.societes-2.png)
 
 Les informations fournisseur sont en lecture seule, car elles sont éditées par la société sur le portail.
 
@@ -193,5 +195,5 @@ Immédiatement en dessous, [on retrouve un tableau](comp.tableaux.html) d'évén
 Cette sous-section remonte des données provenant de l'ERP. L'affichage de cette sous-section reste à définir, car il n'a pas été traité en phase de conception.
 
 #### Documents ####
-> Voir [le gabarit pour documents](gabarits.docs.messages.notes.md)
+> Voir [le gabarit pour documents](comp.docs-messages-notes.html)
 

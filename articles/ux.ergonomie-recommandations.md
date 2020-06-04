@@ -49,13 +49,19 @@ Parfois, la quantité d'information présente à l'écran exige que l'on fasse u
 
 Pour cela, nous avons plusieurs outils : **la graisse du caractère (gras, normal) et sa luminosité (noir ou gris clair).**
 
+<hr/>
+<span class="text-muted">Texte</span> `>` <span class="font-weight-bold text-muted">Texte</span> `>` <span>Texte</span> `>` <span class="font-weight-bold">Texte</span>
+<p class="small text-muted">Styles disponibles pour hiérarchiser l'information.</p>
+<hr/>
+
+
 > La combinaison de ces éléments permet de nuancer un écran et de rendre digeste son appréhension par l'utilisateur.
 
 info principale, contexte, méta-données
 
 ## Data ##
 
-![dashboard](assets/images/dashboard.png)
+![ecran](assets/images/dashboard.png)
 
 ## Mécanismes de l'interface ##
 

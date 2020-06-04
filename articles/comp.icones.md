@@ -2,7 +2,7 @@
 title: Icones
 layout: page
 page_weight: -7
-category: "ui"
+category: "composants"
 ---
 * table of contents
 {:toc}
