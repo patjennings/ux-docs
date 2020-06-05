@@ -1,7 +1,7 @@
 ---
 title: Grille
 layout: page
-page_weight: -10
+page_weight: 0
 category: "composants"
 ---
 * table of contents

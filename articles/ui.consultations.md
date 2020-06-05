@@ -7,23 +7,22 @@ category: "ui"
 * table of contents
 {:toc}
 
-Intro
-
 ## Liste ##
 
 Au clic sur la section dans la navigation principale, on affiche la liste des offres en cours.
 
-[capture liste]
+![ecran](assets/images/7.1-consultations.png)
 
-Cet écran utilise les spécifications du [gabarit d'écran de liste](gabarits.listes.html)
+Cet écran utilise les spécifications du [gabarit d'écran de liste](gabarits.listes.html).
 
 Chaque ligne du tableau remonte, par défaut, ces informations
-- un badge affichant le (…). Couleur du badge `--couleur`
-- (…) `<p><strong/>`
-- (…) `<p class="text-muted">`
-- (…) `<p>`
-
-Un badge doté d'un fond `--warning` et contenant un `!` sera affiché sur les dossiers présentant un retard qui doit être remonté à l'utilisateur.
+- La société `<p><strong/>`
+- L'article `<p>`
+- Le dossier `<p class="text-muted"><strong/>` et `<p class="text-muted">`
+- le taux de benchmark. Le composant [progress](https://getbootstrap.com/docs/4.5/components/progress/) est utilisé pour ce faire. Il remonte la proportion d'offres reçues en regard des demandes effectuées
+- Les quantités `<p>`
+- La date de création `<p class="text-muted">`
+- L'icône `notes` si la consultation contient une note
 
 > Comme stipulé dans la [section Listes](gabarits.listes.html), il n'est pas nécessaire de nommer chaque colonne.
 
@@ -33,40 +32,40 @@ La recherche contextuelle fonctionne sur le modèle défini dans les spécificat
 Le menu déroulant du filtre pourra être composé des options suivantes (ces options pourront être revus ou affinés en fonction des besoins):
 
 <div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
-  <a class="dropdown-item" href="#">Affaire</a>
-  <a class="dropdown-item" href="#">Appel d'offres</a>
-  <a class="dropdown-item" href="#">Devis</a>
-  <a class="dropdown-item" href="#">Projet</a>
+  <h6 class="dropdown-header" style="margin-top:0;">Taux de benchmark</h6>
+  <a class="dropdown-item" href="#">Entre 0 et 15%</a>
+  <a class="dropdown-item" href="#">Entre 15 et 50%</a>
+  <a class="dropdown-item" href="#">Entre 50 et 75%</a>
+    <a class="dropdown-item" href="#">Supérieur à 75%</a>
   <div class="dropdown-divider"></div>
-  <a class="dropdown-item" href="#">Dossiers en retard</a>
-    <div class="dropdown-divider"></div>
-  <a class="dropdown-item" href="#">Mes dossiers</a>
+  <a class="dropdown-item" href="#">Contient une note</a>
 </div>
+
 
 ## Détail ##
 
-[capture détail]
+![ecran](assets/images/7.2-consultation.png)
 
 #### En-tête ####
 
 Un rappel du dossier parent est affiché en haut de l'en-tête.
 
-> Plus de détails dans les [spécifications de l'en-tête](gabarits.details#en-tête.html)
+> Plus de détails dans les [spécifications de l'en-tête](gabarits.details#informations-dun-élément-parent)
 
 #### Onglets ####
 
 ###### Lignes d'offres ######
 
-Reprise de liste (liens vers liste). Affichage des lignes sous forme de cartes (lien vers cartes)
+Reprise de liste (Voir [listes](gabarits.listes.html)). Affichage des lignes sous forme de cartes (voir [cartes](comp.cartes-offres.html))
 
 ###### Messages ######
 
-lien vers docs-messages-notes
+Voir Messages dans [Documents, messages, notes](comp.docs-messages-notes.html)
 
 ###### Notes ######
 
-lien vers docs-messages-notes
+Voir Notes dans [Documents, messages, notes](comp.docs-messages-notes.html)
 
 ###### Documents ######
 
-lien vers docs-messages-notes
+Voir Documents dans [Documents, messages, notes](comp.docs-messages-notes.html)

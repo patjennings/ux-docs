@@ -1,7 +1,7 @@
 ---
 title: Paramètres
 layout: page
-page_weight: 9
+page_weight: 11
 category: "ui"
 ---
 Cette section regroupe les paramètres du système. Les utilisateurs peuvent y avoir plus ou moins accès, en fonction de leur rôle et de leurs *privilèges*.
@@ -59,6 +59,6 @@ La configuration d'un utilisateur intègre des paramètres particuliers. La fen�
   - ses noms, prénoms, adresse mail
   - le site de l'utilisateur. Cela influera sur les données de site que l'utilisateur pourra consulter (voir le menu *périmètre* de la barre de gauche)
   - les catégories sur lesquels il intervient (ces paramètres auront un rôle à jouer lors de lancement automatique de consultations *e.g.*)
-- une partie de droite qui permet de gérer les privilèges de l'utilisateur. Le fonctionnement de cette partie [est développé dans la partie UX](ux.synthese.html)
+- une partie de droite qui permet de gérer les privilèges de l'utilisateur. Le fonctionnement de cette partie [est développé dans la partie UX](ux.multi.html)
 
-[ capture ]
+![ecran](assets/images/13.3-parametres.png)

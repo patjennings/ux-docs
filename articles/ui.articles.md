@@ -13,7 +13,7 @@ Intro
 
 Au clic sur la section dans la navigation principale, on affiche la liste des offres en cours.
 
-[capture liste]
+![ecran](assets/images/9.1-articles.png)
 
 Cet écran utilise les spécifications du [gabarit d'écran de liste](gabarits.listes.html)
 
@@ -45,7 +45,7 @@ Le menu déroulant du filtre pourra être composé des options suivantes (ces op
 
 ## Détail ##
 
-[capture détail]
+![ecran](assets/images/9.2-article.png)
 
 #### En-tête ####
 

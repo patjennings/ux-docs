@@ -1,27 +1,28 @@
 ---
 title: Coûts de non qualité
 layout: page
-page_weight: 3
+page_weight: 10
 category: "ui"
 ---
 * table of contents
 {:toc}
 
-Intro
-
 ## Liste ##
 
 Au clic sur la section dans la navigation principale, on affiche la liste des offres en cours.
 
-[capture liste]
+![ecran](assets/images/11.1-cnqs.png)
 
 Cet écran utilise les spécifications du [gabarit d'écran de liste](gabarits.listes.html)
 
 Chaque ligne du tableau remonte, par défaut, ces informations
-- un badge affichant le (…). Couleur du badge `--couleur`
-- (…) `<p><strong/>`
-- (…) `<p class="text-muted">`
-- (…) `<p>`
+- La description `<p><strong/>`
+- L'article `<p>`
+- La société `<p class="text-muted">`
+- Le coût `<p><strong/>`
+- Le coût finance `<p>`
+- La date de clôture `<p class="text-muted">`
+- La dérogation `<p>`, *Oui* s'il y en a une
 
 Un badge doté d'un fond `--warning` et contenant un `!` sera affiché sur les dossiers présentant un retard qui doit être remonté à l'utilisateur.
 
@@ -30,37 +31,32 @@ Un badge doté d'un fond `--warning` et contenant un `!` sera affiché sur les d
 #### Recherche contextuelle ####
 La recherche contextuelle fonctionne sur le modèle défini dans les spécifications du [gabarit d'écran de liste](gabarits.listes.html#zone-de-recherchefiltrage-et-actions-principales)
 
-Le menu déroulant du filtre pourra être composé des options suivantes (ces options pourront être revus ou affinés en fonction des besoins):
+Le menu déroulant du filtre pourra être composé des options suivantes (ces options pourront être revues ou affinées en fonction des besoins):
 
 <div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
-  <a class="dropdown-item" href="#">Affaire</a>
-  <a class="dropdown-item" href="#">Appel d'offres</a>
-  <a class="dropdown-item" href="#">Devis</a>
-  <a class="dropdown-item" href="#">Projet</a>
+  <h6 class="dropdown-header" style="margin-top:0;">Date de clôture</h6>
+    <a class="dropdown-item" href="#">Dans moins de 3 jours</a>
+  <a class="dropdown-item" href="#">Dans moins d'une semaine</a>
+    <a class="dropdown-item" href="#">Dans moins d'un mois</a>
   <div class="dropdown-divider"></div>
-  <a class="dropdown-item" href="#">Dossiers en retard</a>
-    <div class="dropdown-divider"></div>
-  <a class="dropdown-item" href="#">Mes dossiers</a>
+  <a class="dropdown-item" href="#">Dérogation</a>
 </div>
+
 
 ## Détail ##
 
-[capture détail]
+![ecran](assets/images/11.2-cnq.png)
 
 #### En-tête ####
 
-Un rappel de la non conformité parente est affiché en haut de l'en-tête.
-
-Dans la zone de l'offre, l'information du **coût** de la non qualité est mis en avant.
-
-> Plus de détails dans les [spécifications de l'en-tête](gabarits.details#en-tête.html)
+Dans la zone de l'offre, l'information du **coût** de la non qualité est mise en avant.
 
 #### Onglets ####
 
 ###### Non conformité ######
 
-Reprise de liste, vue tableau (liens vers non conformité, section détail)
+Reprise de liste (Voir [listes](gabarits.listes.html) et [Non-conformité](ui.non-conformite.html)).
 
 ###### Documents ######
 
-lien vers docs-messages-notes
+Voir Documents dans [Documents, messages, notes](comp.docs-messages-notes.html)

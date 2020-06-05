@@ -1,7 +1,7 @@
 ---
 title: Navigation générale
 layout: page
-page_weight: -10
+page_weight: 5
 category: "composants"
 ---
 * table of contents

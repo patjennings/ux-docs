@@ -1,27 +1,29 @@
 ---
 title: Non conformités
 layout: page
-page_weight: 3
+page_weight: 9
 category: "ui"
 ---
 * table of contents
 {:toc}
 
-Intro
-
 ## Liste ##
 
 Au clic sur la section dans la navigation principale, on affiche la liste des offres en cours.
 
-[capture liste]
+![ecran](assets/images/10.1-non-conformites.png)
 
 Cet écran utilise les spécifications du [gabarit d'écran de liste](gabarits.listes.html)
 
 Chaque ligne du tableau remonte, par défaut, ces informations
-- un badge affichant le (…). Couleur du badge `--couleur`
-- (…) `<p><strong/>`
-- (…) `<p class="text-muted">`
-- (…) `<p>`
+- La description `<p><strong/>`, accompagnée d'un badge affichant le type de la non-conformité (qualité, logistique). Chaque type prendra une des couleurs personnalisés
+- La société concernée `<p class="text-muted">`
+- L'article concerné `<p>`
+- La date de RMA `<p class="text-muted">`
+- La date d'action curative`<p class="text-muted">`
+- La date d'action préventive `<p class="text-muted">`
+- La dérogation `<p>`
+
 
 Un badge doté d'un fond `--warning` et contenant un `!` sera affiché sur les dossiers présentant un retard qui doit être remonté à l'utilisateur.
 
@@ -30,40 +32,44 @@ Un badge doté d'un fond `--warning` et contenant un `!` sera affiché sur les d
 #### Recherche contextuelle ####
 La recherche contextuelle fonctionne sur le modèle défini dans les spécifications du [gabarit d'écran de liste](gabarits.listes.html#zone-de-recherchefiltrage-et-actions-principales)
 
-Le menu déroulant du filtre pourra être composé des options suivantes (ces options pourront être revus ou affinés en fonction des besoins):
+Le menu déroulant du filtre pourra être composé des options suivantes (ces options pourront être revues ou affinées en fonction des besoins):
 
 <div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
-  <a class="dropdown-item" href="#">Affaire</a>
-  <a class="dropdown-item" href="#">Appel d'offres</a>
-  <a class="dropdown-item" href="#">Devis</a>
-  <a class="dropdown-item" href="#">Projet</a>
+  <a class="dropdown-item" href="#">Qualité</a>
+  <a class="dropdown-item" href="#">Logistique</a>
   <div class="dropdown-divider"></div>
-  <a class="dropdown-item" href="#">Dossiers en retard</a>
+  <a class="dropdown-item" href="#">Retail Material Agreement renseigné</a>
+    <a class="dropdown-item" href="#">Action curative renseignée</a>
+	  <a class="dropdown-item" href="#">Action préventive renseignée</a>
     <div class="dropdown-divider"></div>
-  <a class="dropdown-item" href="#">Mes dossiers</a>
+  <a class="dropdown-item" href="#">Dérogation</a>
+  <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="#">Voir les non-conformités fermées</a>
 </div>
+
+À noter qu'en sélectionnant *Voir les non conformités fermées*, on appelle des résultats absents de la liste par défaut, les non conformités fermées n'étant par défaut pas disponibles.
 
 ## Détail ##
 
-[capture détail]
+![ecran](assets/images/10.2-non-conformite.png)
 
 #### En-tête ####
 
 Dans la zone de l'offre, les informations de **budget** et de **délai** sont mises en avant.
 
-> Plus de détails dans les [spécifications de l'en-tête](gabarits.details#en-tête.html)
+> Plus de détails dans les [spécifications de l'en-tête](gabarits.details.html#en-tête)
 
 
 #### Onglets ####
 
 ###### Coûts de non qualité ######
 
-Reprise de liste, vue tableau (liens vers coût de non qualité, section détail)
+Reprise de liste, vue [tableau](comp.tableaux.html) affichant les [coûts de non qualité](ui.cnq.html) liés à l'occurence de non-conformité.
 
-###### Messages ######
+###### Notes ######
 
-lien vers docs-messages-notes
+Voir Notes dans [Documents, messages, notes](comp.docs-messages-notes.html)
 
 ###### Documents ######
 
-lien vers docs-messages-notes
+Voir Documents dans [Documents, messages, notes](comp.docs-messages-notes.html)

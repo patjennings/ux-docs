@@ -1,7 +1,7 @@
 ---
 title: Détails
 layout: page
-page_weight: 0
+page_weight: 1
 category: "gabarits"
 ---
 * table of contents

@@ -1,7 +1,7 @@
 ---
 title: Documents, messages, notes
 layout: page
-page_weight: 0
+page_weight: 10
 category: "composants"
 ---
 * table of contents
@@ -13,7 +13,7 @@ On applique à ces composants un traitement quasiment similaire. Ils seront disp
 Les documents sont accessibles, dans chaque élément, via un onglet *Documents* <i class="ico ico-medium">file_o</i> disponible à droite de la barre de navigation interne aux objets.
 
 La carte remonte les titres, identifiant, date d'ajout du document. Un badge mentionnera si ce document est acessible publiquement. L'utilisateur peut télécharger ce document sur sa machine et être informé du poids du document en question.
-
+<div style="background: #F8F9FA; padding: 2rem; width:48rem;" class="mb-3">
 <div class="card mb-2">
     <div class="card-body">
 	<button type="button" class="close" style="position: absolute; right: 6px;">
@@ -33,6 +33,7 @@ La carte remonte les titres, identifiant, date d'ajout du document. Un badge men
 	</div>
     </div>
 </div>
+</div>
 
 Le menu (icone `dots_v`) affiche les options suivantes, qui permettent de modifier le document, ou bien de le supprimer :
 
@@ -43,20 +44,20 @@ Le menu (icone `dots_v`) affiche les options suivantes, qui permettent de modifi
 
 ## Messages ##
 Les messages sont disponibles dans les consultations *e.g.* Les messages affichés sont ceux envoyés par des utilisateurs du système à des intervenants externes.
-
+<div style="background: #F8F9FA; padding: 2rem; width:48rem;" class="mb-3">
 <div class="card">
     <div class="card-body">
 	<h5 class="card-title mt-0 font-weight-bold">Jean Lepetit</h5>
 	<h6 class="card-subtitle mb-2 text-muted">Le 15 mai 2019</h6>
 	<p class="card-text">Bonjour Jean. Pourriez-vous me fournir les plans de la pièce, car il me semble que…</p>
     </div>
-</div>
+</div></div>
 
 ## Notes ##
 Les notes sont accessibles, dans chaque élément, via un onglet *Notes* <i class="ico ico-medium">notes</i> disponible à droite de la barre de navigation interne aux objets.
 
-
-<div class="card mb-2">
+<div style="background: #F8F9FA; padding: 2rem; width:48rem;" class="mb-3">
+<div class="card">
     <div class="card-body">
 	<button type="button" class="close" style="position: absolute; right: 6px;">
 		<i class="ico ico-medium">dots_v</i>
@@ -73,7 +74,7 @@ Les notes sont accessibles, dans chaque élément, via un onglet *Notes* <i clas
 
     </div>
 </div>
-
+</div>
 Le menu (icone `dots_v`) affiche les options suivantes. La note peut-être envoyée à un intervenant extérieur.
 
 <div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem; width: 12rem;">

@@ -1,7 +1,7 @@
 ---
 title: Typographie
 layout: page
-page_weight: -8
+page_weight: 1
 category: "composants"
 ---
 * table of contents

@@ -1,17 +1,13 @@
 ---
 title: Fenêtres modales
 layout: page
-page_weight: 1
+page_weight: 8
 category: "composants"
 ---
 * table of contents
 {:toc}
 
-Dès qu'un utilisateur doit ajouter ou modifier des informations, il le fait dans une fenêtre modale. Le changement visuel traduit le changement de posture de l'utilisateur : de cette façon, les actions d'écriture par l'utilisateur sont visuellement séparées des actions de lecture, ou des actions opérées par le système. 
-
-> L'utilisation de la fenêtre modale permet de poser un cadre cohérent à des actions de saisie, et de mutualiser des composants (côté développement) et des façons de faire (côté utilisateur). 
-
-Il permet, dans certains cas particuliers, d'afficher des données en lecture (historique de l'évaluation d'une société *in* [Société](ui.societes.html), accès à une vue statistique dans le [chiffrage d'un dossier](ui.dossiers.html) )
+Dès qu'un utilisateur doit ajouter ou modifier des informations, il le fait dans une fenêtre modale. On peut, dans certains cas particuliers, afficher des données en lecture (historique de l'évaluation d'une société *in* [Société](ui.societes.html), accès à une vue statistique dans le [chiffrage d'un dossier](ui.dossiers.html) )
 
 ![ecran](assets/images/4.2.2-dossier.png)
 
@@ -162,16 +158,9 @@ Lorsqu'une erreur est remontée à l'utilisateur après que le formulaire ait é
 			</div>
 			<div class="form-group row mb-3">
 			    <div class="col-3"><label for="input2">Client</label></div>
-			    <div class="col-9">
-				<div class="dropdown">
-				    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Client name
-				    </button>
-				    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-					<a class="dropdown-item disabled" href="#">Ce composant est détaillé ci-dessous</a>
-				    </div>
-				</div>
-			    </div>
+
+
+					<div class="col-9"><input type="text" class="form-control" id="input2" value="Ingelec"></div>
 			</div>
 			<div class="form-group row mb-3">
 			    <div class="col-3"><label for="input3" style="color: var(--danger);">Budget</label><p class="text-muted small">Ce texte d'aide indique que le budget est indiqué en {devise du système}</p></div>

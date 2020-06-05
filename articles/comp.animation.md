@@ -1,7 +1,7 @@
 ---
 title: Animations
 layout: page
-page_weight: -6
+page_weight: 4
 category: "composants"
 ---
 * table of contents

@@ -1,7 +1,7 @@
 ---
 title: Couleurs
 layout: page
-page_weight: -9
+page_weight: 2
 category: "composants"
 ---
 * table of contents

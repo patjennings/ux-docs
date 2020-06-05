@@ -1,7 +1,7 @@
 ---
 title: Notifications
 layout: page
-page_weight: 0
+page_weight: 9
 category: "composants"
 ---
 * table of contents

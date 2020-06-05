@@ -1,7 +1,7 @@
 ---
 title: Cartes (offres)
 layout: page
-page_weight: 0
+page_weight: 8
 category: "composants"
 ---
 * table of contents

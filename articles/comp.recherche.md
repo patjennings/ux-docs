@@ -1,7 +1,7 @@
 ---
 title: Recherche globale
 layout: page
-page_weight: 0
+page_weight: 6
 category: "composants"
 ---
 * table of contents

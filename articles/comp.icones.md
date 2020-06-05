@@ -1,7 +1,7 @@
 ---
 title: Icones
 layout: page
-page_weight: -7
+page_weight: 3
 category: "composants"
 ---
 * table of contents

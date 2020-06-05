@@ -3,7 +3,22 @@
 @import "fonts";
 @import "pajeweic";
 @import "mixins";
-@import "bootstrap";
+
+$theme-colors: (
+"primary" : #5AB445,
+"secondary" : #5C6975,
+"success" : #5AB445,
+"danger" : #D8113B,
+"warning" : #F6D944,
+"info" : #649287,
+"dark" : #17181A,
+"light" : #F8F9FA,
+"light-grey" : #B2B5B8,
+"white" : #FFFFFF
+
+);
+
+@import "bootstrap/bootstrap";
 
 @import "syntax"; // syntax coloration (for code)
 @import "typo-tweaking"; // some tweaking on top of bootstrap
@@ -17,4 +32,6 @@
 @import "section";
 @import "sidebar";
 @import "post";
+
+
   
