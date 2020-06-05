@@ -8,10 +8,12 @@ category: "ressources"
 {:toc}
 
 ## Fichiers ##
-écrans
-polices de caractères
-logo.svg (dark & white)
+- [Les écrans issus de la conception](https://client.thomasguesnon.fr/espace-client/cobuy/assets/ecrans)
+- [Les logos de l'application](https://client.thomasguesnon.fr/espace-client/cobuy/assets/logo)
 
 ## Liens ##
-getbootrap.com
-introjs
+- [Bootstrap](https://getbootstrap.com/)
+- La police [Lato sur Google Fonts](https://fonts.google.com/specimen/Lato?query=lato)
+- La [police d'icones Pajeweic](https://framagit.org/patjennings/webfont-icon), et son [référentiel](http://platform.thomasguesnon.net/pajeweic/)
+- [Chart.js](https://www.chartjs.org/) 
+- [Intro JS](https://introjs.com/) 

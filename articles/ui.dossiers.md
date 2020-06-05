@@ -34,7 +34,7 @@ La recherche contextuelle fonctionne sur le modèle défini dans les spécificat
 
 Le menu déroulant du filtre pourra être composé des options suivantes (ces options pourront être revus ou affinés en fonction des besoins):
 
-<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;width:18rem;">
   <a class="dropdown-item" href="#">Affaire</a>
   <a class="dropdown-item" href="#">Appel d'offres</a>
   <a class="dropdown-item" href="#">Devis</a>
@@ -84,7 +84,7 @@ Alignés à droite, on trouve deux boutons d'ajout de contenu
 
 Enfin, à la toute droite de cette zone, on place un menu d'options accessible via une icone `dots_v`. Ce menu embarque les options suivantes :
 
-<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;width:18rem;">
   <a class="dropdown-item" href="#">Tout sélectionner</a>
   <div class="dropdown-divider"></div>
   <a class="dropdown-item disabled" href="#">Lancer des consultations</a>
@@ -97,7 +97,7 @@ L'option *Tout sélectionner* fonctionne avec les checkboxes des lignes de table
 
 Dès qu'une case est cochée dans le tableau, l'option *Tout sélectionner* se transforme en *Tout déselectionner*
 
-<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;width:18rem;">
   <a class="dropdown-item" href="#">Tout désélectionner</a>
   <div class="dropdown-divider"></div>
   <a class="dropdown-item" href="#">Lancer des consultations</a>
@@ -117,7 +117,7 @@ Chaque ligne de section est matérialisée par un fond `--light`. Elle affiche :
 - un coefficient dans un badge de couleur `--info`
 
 Chaque ligne possède un menu d'options, aligné à droite (icone `dots_v`), qui affiche, par défaut :
-<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;width:18rem;">
   <a class="dropdown-item" href="#">Lancer les consultations</a>
   <a class="dropdown-item" href="#">Lancer les demandes d'achat</a>
   <div class="dropdown-divider"></div>
@@ -139,7 +139,7 @@ Chaque ligne de [tableau](comp.tableaux.html) affiche :
 Si une consultation ou une demande d'achat est lancée sur cette ligne, on lui ajoute, aligné à droite, un badge *Demande d'achat* (couleur `--light`) ou une icone `megaphone_alt` symbolisant une consultation.
 
 Chaque ligne possède un menu d'options, aligné à droite (icone `dots_v`), qui affiche, par défaut :
-<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;width:18rem;">
   <a class="dropdown-item" href="#">Lancer une consultation</a>
   <a class="dropdown-item" href="#">Lancer une demande d'achat</a>
   <div class="dropdown-divider"></div>
@@ -147,7 +147,7 @@ Chaque ligne possède un menu d'options, aligné à droite (icone `dots_v`), qui
 </div>
 
 Si une demande d'achat et une consultation sont lancées sur cette ligne, le menu devient
-<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;width:18rem;">
   <a class="dropdown-item" href="#">Voir la consultation</a>
   <a class="dropdown-item" href="#">Voir la demande d'achat</a>
   <div class="dropdown-divider"></div>
@@ -180,7 +180,7 @@ Chaque ligne de tableau remonte les éléments suivants :
 - Le délai réel et le délai standard, dans la même cellule. Le délai réel est affiché grâce à `<p>`, le délai standard avec `<p class="small text-muted">`
 
 Chaque ligne possède un menu d'options, aligné à droite (icone `dots_v`), qui affiche, par défaut :
-<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;width:18rem;">
   <h6 class="dropdown-header" style="margin-top:0;">Critères de chiffrage</h6>
   <a class="dropdown-item" href="#">Coût</a>
   <a class="dropdown-item" href="#">Coût global</a>
@@ -223,7 +223,7 @@ On y retrouve trois éléments principaux :
 
 Le critère de chiffrage est un [dropdown <i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/dropdowns/) qui affiche les options suivantes :
 
-<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;width:18rem;">
   <a class="dropdown-item" href="#">Coût</a>
   <a class="dropdown-item" href="#">Coût global</a>
   <a class="dropdown-item" href="#">Délai</a>

@@ -1,5 +1,5 @@
 ---
-title: Navigation générale
+title: Navigation principale
 layout: page
 page_weight: 5
 category: "composants"

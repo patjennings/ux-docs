@@ -24,9 +24,6 @@ Chaque ligne du tableau remonte, par défaut, ces informations
 - La date d'action préventive `<p class="text-muted">`
 - La dérogation `<p>`
 
-
-Un badge doté d'un fond `--warning` et contenant un `!` sera affiché sur les dossiers présentant un retard qui doit être remonté à l'utilisateur.
-
 > Comme stipulé dans la [section Listes](gabarits.listes.html), il n'est pas nécessaire de nommer chaque colonne.
 
 #### Recherche contextuelle ####
@@ -34,7 +31,7 @@ La recherche contextuelle fonctionne sur le modèle défini dans les spécificat
 
 Le menu déroulant du filtre pourra être composé des options suivantes (ces options pourront être revues ou affinées en fonction des besoins):
 
-<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;width:18rem;">
   <a class="dropdown-item" href="#">Qualité</a>
   <a class="dropdown-item" href="#">Logistique</a>
   <div class="dropdown-divider"></div>

@@ -51,13 +51,30 @@ Voir [Recherche](comp.recherche.html)
 
 Aussi appelée *sous-navigation*. Chaque objet est lié à plusieurs typologies de données (un dossier est lié à des demandes d'achat, des besoins). Ces données sont disponibles sous forme d'onglets.
 
-{{ tabs }}
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Élément #1</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" style="color: #495057;">Élément #2</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" style="color: #495057;">Élément #3</a>
+  </li>
+</ul>
 
 #### Navigation de troisième niveau ####
 
 Il est parfois nécessaire d'avoir à subdiviser un contenu à ce niveau de profondeur. On utilisera alors pour cela des [*button groups* ](https://getbootstrap.com/docs/4.5/components/button-group/#basic-example).
 
-{{ exemple }}
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-primary active">
+    <input type="radio" name="options" id="option1" checked> Sous-élément #1
+  </label>
+  <label class="btn btn-primary">
+    <input type="radio" name="options" id="option2"> Sous-élément #1
+  </label>
+</div>
 
 ### Liaison des contenus ###
 

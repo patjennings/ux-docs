@@ -24,14 +24,12 @@ Chaque KPI est défini sur 4 colonnes. Il comprend :
 
 Une [zone de recherche avec filtre](ux.recherche.html#recherche-contextuelle) permet de retrouver un indicateur en particulier, ou de filtrer les graphiques par catégories (celles-ci correspondent à l'arbre de navigation principale).
 
-[recherche + filtre]
+![recherche + filtre](assets/images/ui.dashboard-1.png)
 
 ## Indicateurs graphiques ##
 
 Chaque graphique est présenté dans [une carte avec titre et sous-titre](https://getbootstrap.com/docs/4.5/components/card/#titles-text-and-links). Il doit pouvoir y avoir deux graphiques sur la largeur de la zone principale. Une carte est définie sur une largeur de 8 colonnes. 
 
-Le graphique est généré avec ChartJS, en utilisant les couleurs personnalisées définies dans la partie [couleurs](ui.couleurs.html)
+Le graphique est généré avec ChartJS (voir [graphiques](comp.graphiques.html)), en utilisant les couleurs supplémentaires définies dans la partie [couleurs](comp.couleurs.html)
 
-[ détail carte graphique ]
-
-
+![recherche + filtre](assets/images/ui.dashboard-2.png)

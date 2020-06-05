@@ -24,8 +24,6 @@ Chaque ligne du tableau remonte, par défaut, ces informations
 - La date de clôture `<p class="text-muted">`
 - La dérogation `<p>`, *Oui* s'il y en a une
 
-Un badge doté d'un fond `--warning` et contenant un `!` sera affiché sur les dossiers présentant un retard qui doit être remonté à l'utilisateur.
-
 > Comme stipulé dans la [section Listes](gabarits.listes.html), il n'est pas nécessaire de nommer chaque colonne.
 
 #### Recherche contextuelle ####
@@ -33,7 +31,7 @@ La recherche contextuelle fonctionne sur le modèle défini dans les spécificat
 
 Le menu déroulant du filtre pourra être composé des options suivantes (ces options pourront être revues ou affinées en fonction des besoins):
 
-<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;width:18rem;">
   <h6 class="dropdown-header" style="margin-top:0;">Date de clôture</h6>
     <a class="dropdown-item" href="#">Dans moins de 3 jours</a>
   <a class="dropdown-item" href="#">Dans moins d'une semaine</a>

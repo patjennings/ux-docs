@@ -51,7 +51,7 @@ Le fond de la catégorie de premier niveau (l'en-tête de toute la catégorie, e
 <br/>
 Chaque ligne propose un menu contextuel (icone `dots_v`) permettant d'accéder à des fonctionnalités d'édition
 
-<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;width:18rem;">
   <a class="dropdown-item" href="#">Modifier</a>
   <a class="dropdown-item" href="#">Supprimer</a>
 </div>
@@ -98,7 +98,7 @@ Au début de chaque ligne de ces tableaux, une case à cocher est affichée, qui
 #### Actions ####
 Un menu est proposé en haut à droite (icone `dots_v`) permettant d'avoir accès à des options pour la catégorie affichée
 
-<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;width:18rem;">
   <h6 class="dropdown-header" style="margin-top:0;">Catégorie</h6>
   <a class="dropdown-item" href="#">Modifier</a>
   <a class="dropdown-item disabled" href="#">Supprimer</a>
@@ -129,7 +129,7 @@ Cette option permet de délier les éléments sélectionnés. Il faut au préala
 
 En plus des possibilités d'édition en masse, chaque ligne de tableau affiche un menu (icone `dots_v`) qui offre la possibilité d'être délié de la catégorie active.
 
-<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;width:18rem;">
 	<a class="dropdown-item" href="#">Délier l'élément</a>
 </div>
 

@@ -7,7 +7,7 @@ category: "composants"
 * table of contents
 {:toc}
 
-On applique à ces composants un traitement quasiment similaire. Ils seront disposés les uns au dessus des autres, dans les sous-section correspondantes des éléments auxquels ils appartiennent
+On applique à ces composants un traitement quasiment similaire. Ils seront disposés les uns au dessus des autres, en sous-sections des objets auxquels ils appartiennent.
 
 ## Documents ##
 Les documents sont accessibles, dans chaque élément, via un onglet *Documents* <i class="ico ico-medium">file_o</i> disponible à droite de la barre de navigation interne aux objets.

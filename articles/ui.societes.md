@@ -31,7 +31,7 @@ La recherche contextuelle fonctionne sur le modèle défini dans les spécificat
 
 Le menu déroulant du filtre pourra être composé des options suivantes (ces options pourront être revus ou affinés en fonction des besoins):
 
-<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;width:18rem;">
   <a class="dropdown-item" href="#">Fournisseur</a>
   <a class="dropdown-item" href="#">Client</a>
   <div class="dropdown-divider"></div>

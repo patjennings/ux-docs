@@ -7,8 +7,6 @@ category: "ui"
 * table of contents
 {:toc}
 
-Intro
-
 ## Liste ##
 
 Au clic sur la section dans la navigation principale, on affiche la liste des offres en cours.
@@ -18,30 +16,15 @@ Au clic sur la section dans la navigation principale, on affiche la liste des of
 Cet écran utilise les spécifications du [gabarit d'écran de liste](gabarits.listes.html)
 
 Chaque ligne du tableau remonte, par défaut, ces informations
-- un badge affichant le (…). Couleur du badge `--couleur`
-- (…) `<p><strong/>`
-- (…) `<p class="text-muted">`
-- (…) `<p>`
-
-Un badge doté d'un fond `--warning` et contenant un `!` sera affiché sur les dossiers présentant un retard qui doit être remonté à l'utilisateur.
+- Le nom de l'article `<p><strong/>`
+- Le dossier affilié `<p class="text-muted"><strong/>` et `<p class="text-muted">`
+- Les quantités de l'offre `<p>`
+- La date de création de l'offre `<p class="text-muted">`
 
 > Comme stipulé dans la [section Listes](gabarits.listes.html), il n'est pas nécessaire de nommer chaque colonne.
 
 #### Recherche contextuelle ####
 La recherche contextuelle fonctionne sur le modèle défini dans les spécifications du [gabarit d'écran de liste](gabarits.listes.html#zone-de-recherchefiltrage-et-actions-principales)
-
-Le menu déroulant du filtre pourra être composé des options suivantes (ces options pourront être revus ou affinés en fonction des besoins):
-
-<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">
-  <a class="dropdown-item" href="#">Affaire</a>
-  <a class="dropdown-item" href="#">Appel d'offres</a>
-  <a class="dropdown-item" href="#">Devis</a>
-  <a class="dropdown-item" href="#">Projet</a>
-  <div class="dropdown-divider"></div>
-  <a class="dropdown-item" href="#">Dossiers en retard</a>
-    <div class="dropdown-divider"></div>
-  <a class="dropdown-item" href="#">Mes dossiers</a>
-</div>
 
 ## Détail ##
 
@@ -60,24 +43,24 @@ Dans la zone de l'offre, les informations de **budget** et de **délai** sont mi
 
 ###### Lignes d'offres ######
 
-Reprise de liste (liens vers liste). Affichage des lignes sous forme de cartes (lien vers cartes)
+Reprise de liste (Voir [listes](gabarits.listes.html)). Affichage des lignes liées à l'occurence d'offre, sous forme de cartes (voir [cartes](comp.cartes-offres.html))
 
 ###### Demandes d'achat ######
 
-Reprise de liste, vue tableau (liens vers demande achat, section détail)
+Reprise de liste, vue [tableau](comp.tableaux.html) affichant les [demandes d'achat](ui.demandes-achat.html) liés à l'occurence d'offre.
 
 ###### Consultations ######
 
-Reprise de liste, vue tableau (liens vers consultations, section détail)
+Reprise de liste, vue [tableau](comp.tableaux.html) affichant les [consultations](ui.consultations.html) liés à l'occurence d'offre.
 
 ###### Sourcing ######
 
-Liste, vue tableau.
+Reprise de liste, vue [tableau](comp.tableaux.html) affichant les catégories liées à l'offre.
 
 ###### Homologations ######
 
-Liste, vue tableau
+Liste, vue [tableau](comp.tableaux.html) affichant les homologationsde  l'occurence d'offre.
 
 ###### Documents ######
 
-lien vers docs-messages-notes
+Voir Documents dans [Documents, messages, notes](comp.docs-messages-notes.html)
