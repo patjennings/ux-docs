@@ -7,20 +7,20 @@ category: "ux"
 * table of contents
 {:toc}
 
-**Pour assurer une expérience utilisateur satisfaisante, il est important de garder à l'esprit que la cohérence est la clé.**
+**Pour assurer une expérience utilisateur optimale, il est important de garder à l'esprit que la cohérence est la clé.**
 
 La conception fait système : si un utilisateur a appris qu'il doit aller chercher les actions de modifications à un endroit, il est important de toujours mettre à cet endroit les actions de modifications. **Le temps perdu à chercher une action n'est pas efficace, génère de la frustration et freine l'adoption du produit.** 
 
 Avant d'envisager de créer un nouveau composant pour une fonctionnalité qui n'est pas décrite dans cette documentation, il conviendra d'envisager utiliser les éléments disponibles actuellement. Cela a deux effets bénéfiques : il n'est pas nécessaire de développer un composant _ad hoc_, et on bénéficie de l'apprentissage effectué par les utilisateurs sur le reste de l'application.
 
-Tous les éléments de cette documentation, mis bout à bout, contribue à améliorer l'efficacité de l'utilisateur.
+**Tous les éléments de cette documentation, mis bout à bout, contribue à améliorer l'efficacité de l'utilisateur.**
 
 ## Documentation de l'interface ##
 
 Il est important de documenter au maximum l'utilisation du produit, afin que l'utilisateur sache seul effectuer les tâches. Cela passe par plusieurs moyens, qui seront employés par l'utilisateur de façon différente à mesure qu'il acquiert de l'expérience dans l'utilisation du produit :
 - **Proposer un tour de l'interface** lors de sa première connexion (*on-boarding*). Des outils tels que [Intro.js](https://introjs.com/example/hello-world/index.html) sont dédiés à cette fonction
 - **Donner un libellé explicite** et _human-readable_ aux actions de l'interface
-- Offrir à l'utilisateur des **informations près des actions** qui pourraient lui poser question (cf. les explications présentes sous les libellés, [dans les formulaires](comp.modales.html))
+- Offrir à l'utilisateur des **informations près des actions** qui pourraient lui poser question (cf. les explications présentes sous les libellés, [dans les formulaires](comp.modales.html#modification))
 - Si une anomalie est remontée suite à une action non conforme de l'utilisateur, celui-ci doit avoir **un retour lui proposant des indices** sur la façon d'avancer dans sa tâche
 - **Fournir une documentation complète**, dans une section dédiée du site produit e.g. (Voir l'entrée aide du menu utilisateur). Cette documentation peut prendre plusieurs aspects : une base de connaissance (voir [Invision](https://support.invisionapp.com/hc/en-us/categories/360001714731-Knowledge-Base)), des tutoriaux sous [forme d'articles](https://glyphsapp.com/tutorials) ou sous forme de vidéos. En plus du site produit présentant ses avantages, cette documentation permet à un potentiel utilisateur d'entrer plus avant dans le produit. De multiples sociétés (voir Intercom, Wistia, Sketch, Evernote) ont des documentations disponibles publiquement qui permettent, de *l'extérieur*, d'avoir une bonne connaissance du produit et, de *l'intérieur*, de parfaire son utilisation et d'être plus efficace
 
@@ -79,13 +79,8 @@ Il est parfois nécessaire d'avoir à subdiviser un contenu à ce niveau de prof
 ### Liaison des contenus ###
 
 Outre les systèmes de navigation présentés ci-avant, plusieurs éléments sont à notre diposition pour faciliter le passage d'un objet à un autre, au sein de l'interface.
-
-Si un objet possède un élément parent (une consultation liée à un dossier), on affiche un lien vers ce parent
-(lien vers carte+parent)
-
-Dans des reprises de liste d'objets au sein d'un autre objet
-(lien vers exemple lien tableau)
-
+- si un objet possède un élément parent (une consultation liée à un dossier), on affiche un lien [vers ce parent.](gabarits.details.html#informations-dun-élément-parent)
+- dans des reprises de liste d'objets au sein d'un autre objet, on lie toutes les lignes du tableau à leur emplacement originel
 
 #### Résumé et idée directrice ####
 
@@ -155,11 +150,21 @@ Certains affichages pourraient être contrôlés par l'utilisateur. Il faudra ce
 
 #### Dashboard ####
 
-Permettre à l'utilisateur de choisir quels graphiques afficher sur le dashboard de l'application
+L'utilisateur peut choisir, dans ses propres options d'affichage, quels graphiques seront présents sur sa vue du dashboard de l'application.
 
 #### Dimensions de l'interface ####
 
-redimensionner l'interface. Proposer affichage par défaut ou petit
+On peut laisser le choix à l'utilisateur de définir sa taille d'interface, par une option simple.
+
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;width:18rem;">
+  <h6 class="dropdown-header" style="margin-top:0;">Taille de l'interface</h6>
+  <a class="dropdown-item" href="#">Petit</a>
+  <a class="dropdown-item" href="#">Grand (par défaut)</a>
+</div>
+
+<hr/>
+
+Techniquement, cela passe par la modification d'une valeur : Bootstrap définissant toutes se valeurs en `rem`, on pourra facilement, si cette règle est respecté partout, redéfinir aisément l'échelle de l'interface.
 
 ``` css
 html, body{
@@ -174,7 +179,7 @@ html, body{
 }
 ```
 
-Bootstrap définit toutes se valeurs en `rem`, il faudra donc veiller à respecter cette règle pour que le redimensionnement de l'interface soit aisé.
+
 
 ## Historique des communications ##
 

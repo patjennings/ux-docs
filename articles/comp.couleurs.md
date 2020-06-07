@@ -7,7 +7,7 @@ category: "composants"
 * table of contents
 {:toc}
 
-Les couleurs de l'interface sont divisées en deux grandes catégories : **les couleurs de base**, qui seront *overridées* dans le fichier `_variables.scss` de Bootstrap, et les **couleurs supplémentaires**, que l'on destinera à l'habillage de certains badges (types d'ocurrence, pour les dossiers e.g.) ou aux [graphiques](ui.graphiques.html)
+Les couleurs de l'interface sont divisées en deux grandes catégories : **les couleurs de base**, qui seront *overridées* dans le fichier `_variables.scss` de Bootstrap, et les **couleurs supplémentaires**, que l'on destinera à l'habillage de certains badges (types d'ocurrence, pour les dossiers e.g.) ou aux [graphiques](ui.graphiques.html).
 
 
 ## Couleurs de base ##

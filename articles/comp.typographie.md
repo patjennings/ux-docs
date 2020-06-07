@@ -30,10 +30,8 @@ Outre les titres, quelques styles à utiliser avec Bootstrap nous intéressent p
 
 ``` html
 <p><strong>Une information importante</strong></p>
+<!-- Attention à ne mettre en valeur que quelques informations par écran avec ce style. Dans un tableau, par exemple, il n'y aura sûrement qu'une ou deux colonnes qui se verront habillées de ce style. -->
 ```
-
-
-> **Attention à ne mettre en valeur que quelques informations par écran avec ce style**. Dans un tableau, par exemple, il n'y aura sûrement qu'une ou deux colonnes qui se verront habillées de ce style.
 
 <hr/>
 

@@ -39,7 +39,7 @@ Cette *super-option* d'intervention totale revient à cocher toutes les options 
 
 ## Édition ##
 
-Les autres paramètres ouvrent le droit à effectuer plus ou moins d'actons : cela revient à donner la possibilité d'écrire plus ou moins de données dans le système, celles-ci étant répercutées pour tous les utilisateurs de celui-ci.
+Les autres paramètres ouvrent le droit à effectuer plus ou moins d'actons : cela revient à donner la possibilité d'écrire plus ou moins de données dans le système.
 
 ## Périmètre visible dans l'interface ##
 
@@ -48,6 +48,14 @@ Par défaut, le menu est configuré pour montrer les données du site de l'utili
 
 <div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem; width: 22rem;">
   <a class="dropdown-item" href="#"><i class="ico ico-medium mr-2" style="color: #5AB445;">check</i>Mon site<p class="text-muted mb-2">Affiche toutes les données de mon site</p></a>
+  <a class="dropdown-item" href="#">Mes enregistrements<p class="text-muted mb-2">Affiche uniquement mes données</p></a>
+</div>
+
+Dans le cas où l'option *tout voir* est cochée, une option est ajoutée à ce menu.
+
+<div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem; width: 22rem;">
+  <a class="dropdown-item" href="#">Tout<p class="text-muted mb-2">Affiche toutes les données de tous les sites <br/>et de tous les utilisateurs</p></a>
+<a class="dropdown-item" href="#"><i class="ico ico-medium mr-2" style="color: #5AB445;">check</i>Mon site<p class="text-muted mb-2">Affiche toutes les données de mon site</p></a>
   <a class="dropdown-item" href="#">Mes enregistrements<p class="text-muted mb-2">Affiche uniquement mes données</p></a>
 </div>
 

@@ -61,7 +61,7 @@ On préférera ainsi établir sa largeur de façon à l'adapter à la donnée ac
 
 ###### Alignement ######
 
-Dans les tableaux, les données chiffrées sont alignées sur leur droite. Pour commencer, un contre-exemple :
+Dans les tableaux, les données chiffrées sont alignées sur leur droite. Voici un contre-exemple :
 
 <div class="pt-2 pb-2 mb-3" style="text-align:left; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; width: 8rem;">
 	<p>14 800 €</p>

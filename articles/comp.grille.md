@@ -36,4 +36,4 @@ Dans la documentation, lorsqu'il sera défini qu'un élement `#item` est basé s
 </div>
 ```
 
-Plus d'éléments sur [la construction de grille avec Bootstrap](https://getbootstrap.com/docs/4.5/layout/grid/).
+> Plus d'éléments sur [la construction de grille avec Bootstrap](https://getbootstrap.com/docs/4.5/layout/grid/).
