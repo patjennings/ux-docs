@@ -13,8 +13,6 @@ Cette page regroupe différentes recommandations ergonomiques, à appliquer sur 
 
 Les libellés tels que les titres, les en-têtes de tableaux et les libellés de champs sont des points d'informations très importants. Il convient de soigner leur présentation et leur sens.
 
-Exemples
-
 Au niveau de la présentation, **on tâchera d'utiliser exclusivement des bas-de-casse (minuscules) pour l'affichage des libellés et des textes de l'interface**. L'usage des capitales (majuscules) devrait être réservé à quelques cas exceptionnels, car leur lisibilité se réduit à mesure que la quantité de texte augmente à l'écran. 
 
 > Dans une interface utilisateur, il n'y a en général aucune utilité à se servir de capitales, même pour surligner des informations importantes. On se servira plutôt des couleurs pour cet usage d'alerte.
