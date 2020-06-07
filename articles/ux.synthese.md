@@ -114,20 +114,22 @@ Voir le composant [modales](comp.modales.html)
 
 ## Notifier, alerter ##
 
-La notion de notification, ou d'alerte (selon la criticité de l'information) est présente à plusieurs niveaux de l'interface, et intervient selon des temporalités diverses. Il est également important de noter que l'utilisateur devrait être averti des actions négatives (erreur, non conformité d'une action) comme des actions positives (action ayant aboutie). Il conviendra pour cela de jauger finement la quantité d'informations à remonter à l'utilisateur : trop de messages, et il aurait tendance à ignorer et à manquer une notification importante dans un futur plus ou moins proche. Pas assez de messages, et l'utilisateur n'est pas capable de pondérer l'information ou de résoudre des problèmes dans l'interface.
+La notion de notification, ou d'alerte (selon la criticité de l'information) est présente à plusieurs niveaux de l'interface, et intervient selon des temporalités diverses. Il est également important de noter que l'utilisateur devrait être averti des actions négatives (erreur, non conformité d'une action) comme des actions positives (action ayant aboutie). 
+
+Il conviendra pour cela de jauger finement la quantité d'informations à remonter à l'utilisateur : trop de messages, et il aurait tendance à ignorer et à manquer une notification importante dans un futur plus ou moins proche. Pas assez de messages, et l'utilisateur n'est pas capable de pondérer l'information ou de résoudre des problèmes dans l'interface.
 
 > Le dévoilement progressif d'une information permet à un utilisateur d'avoir, selon son besoin, plus ou moins de détails (d'abord un message dans une notification, puis une vision plus détaillée dans une modale, puis une page retracant la totalité d'une anomalie *ou* une page de documentation pouvant aider l'utilisateur *e.g.*) 
 
 <p class="small text-muted">Schéma de principe du dévoilement progressif d'une information</p>
-![dévoilement progressif](assets/images/progressif.png)
+![ecran](assets/images/progressif.png)
 
 #### À la connexion ####
 On avertit l'utilisateur de changements qui auraient eu lieu depuis sa dernière connexion. Seul l'utilisateur voit ces notifications.
 
 #### Notifications système ####
-Certains objets de l'interface ont 
+Certains objets de l'interface remontent des alertes sur certaines de leur données : c'est le cas d'un dossier, qui peut être proche de son échéance, ou d'un article, dont l'homologation est obsolète. 
 
-Il y a plusieurs moyens d'afficher ces informations : par des [cartes d'alertes](gabarits.details.html#alerte), ou [par des badges ](comp.navigation.html#notifications)à côté des entrées qui remontent des avertissements.
+Il y a plusieurs moyens d'afficher ces informations : par des [cartes d'alertes](gabarits.details.html#alerte), sur les listes ou sur la fiche d'une occurence, ou [par des badges ](comp.navigation.html#notifications) à côté des entrées qui remontent des avertissements.
 
 #### Après une action ####
 Après une action directe de l'utilisateur, plusieurs types de notifications sont possibles : 
@@ -138,9 +140,9 @@ Après une action directe de l'utilisateur, plusieurs types de notifications son
 
 Ces messages sont affichés sous forme de [toaster](comp.notifications.html). Conformément au principe évoqué en introduction de cette section, le message initial sera court, synthétique, et un bouton pourra diriger l'utilisateur vers une version plus détaillée de celui-ci, si nécessaire.
 
-#### particulier ####
+#### Cas particulier du chiffrage ####
 
-chiffrage, avertir l'utilisateur que l'information sous nos yeux n'est pas complète/erronnée
+Lors d'un chiffrage, on doit avertir l'utilisateur, si certaines conditions ne sont pas remplies (offres non reçues *e.g.*), que l'information qu'il a sous yeux est incomplète.
 
 #### À propos de l'automatisation ####
 

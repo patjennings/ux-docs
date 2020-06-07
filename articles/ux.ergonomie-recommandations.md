@@ -7,7 +7,7 @@ category: "ux"
 * table of contents
 {:toc}
 
-Cette page regroupe différentes recommandations ergonomiques.
+Cette page regroupe différentes recommandations ergonomiques, à appliquer sur l'ensemble des éléments de l'interface.
 
 ## Libellés ##
 

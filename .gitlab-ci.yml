@@ -30,7 +30,7 @@ deploy:
   dependencies:
     - build
   script:
-    - scp -rp ./public/* thomasgur@ssh.cluster010.hosting.ovh.net:/homez.676/thomasgur/www/espace-client/directory/espace-client/cobuy/documentation.site
+    - scp -rp ./public/* thomasgur@ssh.cluster010.hosting.ovh.net:/homez.676/thomasgur/www/espace-client/directory/espace-client/cobuy/livraison/documentation.site
   only:
     - master
 

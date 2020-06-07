@@ -7,9 +7,12 @@ category: "ressources"
 * table of contents
 {:toc}
 
+## Prototype ##
+- Le prototype issu de la conception
+
 ## Fichiers ##
-- [Les écrans issus de la conception](https://client.thomasguesnon.fr/espace-client/cobuy/assets/ecrans)
-- [Les logos de l'application](https://client.thomasguesnon.fr/espace-client/cobuy/assets/logo)
+- [Les écrans issus de la conception](https://client.thomasguesnon.fr/espace-client/cobuy/livraison/assets/ecrans)
+- [Les logos de l'application](https://client.thomasguesnon.fr/espace-client/cobuy/livraison/assets/logo)
 
 ## Liens ##
 - [Bootstrap](https://getbootstrap.com/)
