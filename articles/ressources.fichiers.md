@@ -8,7 +8,7 @@ category: "ressources"
 {:toc}
 
 ## Prototype ##
-- Le prototype issu de la conception
+- [Le prototype issu de la conception](https://client.thomasguesnon.fr/espace-client/cobuy/livraison/prototype.site)
 
 ## Fichiers ##
 - [Les écrans issus de la conception](https://client.thomasguesnon.fr/espace-client/cobuy/livraison/assets/ecrans)
