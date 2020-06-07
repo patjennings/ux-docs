@@ -98,7 +98,7 @@ En cas de réduction du *viewport*, la zone de navigation est réduite, et devie
 
 
 ## Logo ##
-Le logo à afficher ici est disponible [dans les fichiers](ressources.fichiers.md)
+Le logo à afficher ici est disponible [dans les fichiers](ressources.fichiers.html)
 
 ## Recherche ##
 Le composant `input` de la recherche est habillé d'un fond `#3A3A41`. Au focus, le fond blanc par défaut du composant.
@@ -129,12 +129,12 @@ Le libellé d'un élément inactif à, par défaut, une opacité de `0.75`. Au `
 Lorsqu'un accès devient actif, on lui applique un fond de couleur `#2F462E`. Un filet d'une largeur de 4px et de couleur `--primary` est également appliqué. Le libellé a une opacité de `1`.
 
 ###### Notifications ######
-Un [pill-badge](https://getbootstrap.com/docs/4.5/components/badge/#pill-badges) peut être ajouté directement à droite du libellé. Il est affiché à tous les utilisateurs, et remonte une quantité d'occurences sur lesquelles une action est recommandée. Deux couleurs, `--warning` et `--danger`, sont disponibles pour caractériser la nature de l'alerte.
+Un [pill-badge<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/badge/#pill-badges) peut être ajouté directement à droite du libellé. Il est affiché à tous les utilisateurs, et remonte une quantité d'occurences sur lesquelles une action est recommandée. Deux couleurs, `--warning` et `--danger`, sont disponibles pour caractériser la nature de l'alerte.
 
 > Ce badge devrait correspondre à une alerte présente en haut de liste, lors de l'arrivée de l'utilisateur sur la section correspondante. Voir [les alertes dans la section de gabarit de liste](gabarits.listes.html#alerte).
 
 ## Périmètre ##
-Le menu de périmètre est un [dropdown](https://getbootstrap.com/docs/4.5/components/dropdowns/#dropup) qu'on ouvrira par le haut. La seule personnalisation ici concerne son fond par défaut, qui sera de couleur `#17181A`.
+Le menu de périmètre est un [dropdown<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/dropdowns/#dropup) qu'on ouvrira par le haut. La seule personnalisation ici concerne son fond par défaut, qui sera de couleur `#17181A`.
 
 ## Paramètres ##
 L'accès aux paramètres est un mélange de titres de section et de liens. 
@@ -149,7 +149,7 @@ Les informations de l'utilisateur sont affichées sur un fond `#2D2D32`. La haut
 Les informations affichées sont :
 - une icone `user_circle` ― avec une class `ico-large`
 - Le nom de l'utilisateur connecté `<p>`
-- Une icone `bell` (class `ico-large`), avec un [pill-badge](https://getbootstrap.com/docs/4.5/components/badge/#pill-badges) de couleur `--info` ― Voir également dans la section [Animations](ui.animations.html#horloge-de-notifications-de-lutilisateur)
+- Une icone `bell` (class `ico-large`), avec un [pill-badge<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/badge/#pill-badges) de couleur `--info` ― Voir également dans la section [Animations](ui.animations.html#horloge-de-notifications-de-lutilisateur)
 - un menu (icone `dots_v`) donnant accès à un menu avec les options suivantes
 
 <div class="dropdown-menu" style="position: static;display: block; float: none; margin-bottom: 1rem;">

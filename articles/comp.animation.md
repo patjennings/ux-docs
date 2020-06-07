@@ -24,10 +24,10 @@ item:hover{
 
 #### *Toast* de notification ####
 
-L'animation de cet élément est géré [ par Bootstrap](https://getbootstrap.com/docs/4.5/components/toasts/#placement)
+L'animation de cet élément est géré [ par Bootstrap<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/toasts/#placement)
 
 #### Horloge de notifications de l'utilisateur ####
-Lors de sa connexion, une [notification apparait à l'utilisateur](comp.sidebar.html), près de son nom, et l'avertit d'événements survenus depuis sa dernière connexion (rechargez peut-être la page pour voir l'animation, ici).
+Lors de sa connexion, une [notification apparait à l'utilisateur](comp.notifications.html#zone-utilisateur), près de son nom, et l'avertit d'événements survenus depuis sa dernière connexion (rechargez peut-être la page pour voir l'animation, ici).
 
 <style type="text/css">
 .bell-container{

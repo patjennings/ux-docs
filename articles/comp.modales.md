@@ -133,7 +133,7 @@ Voici, ici, quelques exemples d'intégration des composants de base dans une fen
 ## Erreur dans un formulaire ##
 
 Lorsqu'une erreur est remontée à l'utilisateur après que le formulaire ait été soumis, on utilise :
-- [une alerte ](https://getbootstrap.com/docs/4.5/components/alerts/)de type "danger", affichée en haut de la zone de contenu, qui synthétise l'erreur. On veillera à ne pas se contenter de signaler l'erreur, mais on donnera aussi **à l'utilisateur des informations pour la résoudre**
+- [une alerte <i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/alerts/)de type "danger", affichée en haut de la zone de contenu, qui synthétise l'erreur. On veillera à ne pas se contenter de signaler l'erreur, mais on donnera aussi **à l'utilisateur des informations pour la résoudre**
 - le label est coloré en `--danger`
 - lorsque cela est possible, le champ est entouré par une bordure de couleur `--danger`
 
@@ -182,7 +182,7 @@ Lorsqu'une erreur est remontée à l'utilisateur après que le formulaire ait é
 
 Les modales sont centrées verticalement et horizontalement dans l'écran.
 
-On laissera toujours un espace de `28px` en haut et en bas. Si les informations de la modale font dépasser celle-ci du *viewport*, on doit pouvoir scroller dans la zone de contenu (le header qui contient le titre et le footer qui contient les boutons d'action sont fixes). Ce comportement est [facilement paramétrable avec Bootstrap](https://getbootstrap.com/docs/4.5/components/modal/#vertically-centered).
+On laissera toujours un espace de `28px` en haut et en bas. Si les informations de la modale font dépasser celle-ci du *viewport*, on doit pouvoir scroller dans la zone de contenu (le header qui contient le titre et le footer qui contient les boutons d'action sont fixes). Ce comportement est [facilement paramétrable avec Bootstrap<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/modal/#vertically-centered).
 
 <hr/>
 
@@ -216,4 +216,4 @@ Si un utilisateur veut ajouter un élément non encore présent dans le système
 ## Animation ##
 
 On veillera à retirer l'animation d'apparition et de disparition de la modale, ceci pour optimiser l'efficacité de l'utilisateur.
-[Retirer l'animation](https://getbootstrap.com/docs/4.5/components/modal/#remove-animation)
+[Retirer l'animation<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/modal/#remove-animation)

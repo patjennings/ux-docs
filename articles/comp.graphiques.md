@@ -7,7 +7,7 @@ category: "composants"
 * table of contents
 {:toc}
 
-Les graphiques sont affichés avec [ChartJS](https://www.chartjs.org/). Les couleurs utilisées dans les graphiques seront exclusivement celles détaillées dans la partie *couleurs supplémentaires* de la section [Couleurs](ui.couleurs.html), cela afin de ne pas générer de bruit avec le nuancier de l'interface, qui a une valeur d'information ― action primaire, alerte, avertissement, etc.
+Les graphiques sont affichés avec [ChartJS<i class="ico">external_link</i>](https://www.chartjs.org/). Les couleurs utilisées dans les graphiques seront exclusivement celles détaillées dans la partie *couleurs supplémentaires* de la section [Couleurs](ui.couleurs.html), cela afin de ne pas générer de bruit avec le nuancier de l'interface, qui a une valeur d'information ― action primaire, alerte, avertissement, etc.
 
 Il est recommandé de n'afficher que les éléments nécessaires. Ainsi, on évitera toute légende qui surcharge inutilement un graphique.
 
@@ -45,7 +45,7 @@ Il est recommandé de n'afficher que les éléments nécessaires. Ainsi, on évi
 	 });
 </script>
 
-> Un [plugin pour ChartJS <i class="ico">external_link</i>](https://emn178.github.io/chartjs-plugin-labels/samples/demo/) permet d'afficher les données **sur** le graphique ― en plus du tooltip
+> Un [plugin pour ChartJS <i class="ico">external_link</i><i class="ico">external_link</i>](https://emn178.github.io/chartjs-plugin-labels/samples/demo/) permet d'afficher les données **sur** le graphique ― en plus du tooltip
 
 ## Exemples d'utilisation ##
 

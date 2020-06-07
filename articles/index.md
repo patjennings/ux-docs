@@ -22,7 +22,7 @@ Cette documentation est à l'usage de plusieurs intervenants : l'équipe produit
 Enfin, **la partie *Ressources*** regroupe les liens et fichiers rencontrés tout au long de cette documentation.
 
 #### Terminologie ####
-Il sera souvent évoqué dans cette documentation la notion *d'objet* ou *d'occurence*. Ces deux éléments sont liés, en voici l'explication :
+Il sera souvent évoqué dans cette documentation la notion *d'objet* ou *d'occurence*. Ces deux éléments sont liés :
 - **l'objet** est un élément type de l'interface : un dossier, une consultation, une offre, un article, une non-conformité. Il correspond aux sections de navigation de la barre de gauche
 - **l'occurence** est un élément issu de cet objet : le *dossier DOS-02568* et le *dossier DOS-84459* sont des occurences de l'objet *dossier*
 
@@ -30,7 +30,7 @@ Il sera souvent évoqué dans cette documentation la notion *d'objet* ou *d'occu
 
 Cette documentation est conçue pour évoluer. Il conviendra d’étudier les besoins des utilisateurs et leurs usages dans la nouvelle version de Cobuy, pour ensuite amender et faire évoluer les principes de conception.
 
-La pahse de construction de l'interface peut être envisagée ainsi :
+> **En résumé**
 > - On construira l'interface utilisateur à partir des éléments fournis, en respectant la cohérence du système de conception.
 > - Si quelque chose ne fonctionne pas comme prévu, il peut y avoir un écart avec la recommandation. Le bon sens prévaut, mais il important de tester les deux versions pour vérifier que le gain est véritable.
 > - les nouvelles décisions sont documentées, et on s'appuiera sur elles pour les évolutions futures.

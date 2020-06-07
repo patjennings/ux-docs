@@ -7,7 +7,7 @@ category: "composants"
 * table of contents
 {:toc}
 
-Le modèle de carte présenté ici sert à afficher des lignes offres. Les offres sont présentes dans des objets de type [Offres](ui.offres.html) ou [demandes d'achat](ui.demandes-achat.md).
+Le modèle de carte présenté ici sert à afficher des lignes offres. Les offres sont présentes dans des objets de type [Offres](ui.offres.html) ou [demandes d'achat](ui.demandes-achat.html).
 
 ![ecran](assets/images/5.3-dossier.article.lignes-offres-grille-active.png)
 

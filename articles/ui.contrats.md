@@ -58,7 +58,7 @@ Les lignes de contrats sont affichées sous forme de [tableau](comp.tableaux.htm
 
 Un bouton avec icone `dots_v` permet, en bout de chaque ligne, de modifier ou de supprimer une ligne de contrat, ainsi que d'avoir accès à l'article de la ligne de contrat (dans [articles](ui.articles.html))
 
-La somme est affichée sous forme de [carte](https://getbootstrap.com/docs/4.5/components/card/) de fond `--light`. Cet élément est **fixe au bas du viewport** :
+La somme est affichée sous forme de [carte<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/card/) de fond `--light`. Cet élément est **fixe au bas du viewport** :
 - Libellé `<p class="text-muted">`
 - Somme `<h3>`
 

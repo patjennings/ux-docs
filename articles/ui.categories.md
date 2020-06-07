@@ -11,7 +11,7 @@ Focntionnement de la page catégories
 
 ## Liste éditable ##
 
-L'affichage de la liste des catégories s'effectue grâce au composant [list group](https://getbootstrap.com/docs/4.5/components/list-group/#links-and-buttons). Cette zone est affiché sur une largeur de 7 colonnes.
+L'affichage de la liste des catégories s'effectue grâce au composant [list group<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/list-group/#links-and-buttons). Cette zone est affiché sur une largeur de 7 colonnes.
 
 Le fond de la catégorie de premier niveau (l'en-tête de toute la catégorie, en somme) prendra un fond `--light`
 
@@ -88,7 +88,7 @@ Par défaut, cette zone est vide : l'utilisateur doit choisir une catégorie ou 
 Au clic sur une sous-catégorie, on affiche les éléments suivants :
 - Le chemin de la sous-catégorie `<p class="text-muted">`
 - Le titre de celle-ci `<h3>`
-- [Des onglets](https://getbootstrap.com/docs/4.5/components/navs/#tabs) qui contrôlent l'affichage des éléments suivants, apparaissant sous forme de tableau.
+- [Des onglets<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/navs/#tabs) qui contrôlent l'affichage des éléments suivants, apparaissant sous forme de tableau.
   - Utilisateurs
   - Sociétés
   - Articles

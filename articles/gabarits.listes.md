@@ -44,7 +44,7 @@ Immédiatement à sa droite, vient se placer un toggle, qui permet de basculer e
 Plus de détails, voir [recherche](ux.recherche.html)
 
 #### Ajout d'un élément ####
-Dans cette ligne, on ajoutera, aligné sur la droite, [les boutons](https://getbootstrap.com/docs/4.5/components/buttons/) d'ajout de contenu. Dès qu'une section offre la possibilité d'ajouter un élément, c'est ici que l'on placera le ou les boutons. Chaque bouton sera accompagné, sur sa gauche, d'une icone `plus`.
+Dans cette ligne, on ajoutera, aligné sur la droite, [les boutons<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/buttons/) d'ajout de contenu. Dès qu'une section offre la possibilité d'ajouter un élément, c'est ici que l'on placera le ou les boutons. Chaque bouton sera accompagné, sur sa gauche, d'une icone `plus`.
 
 C'est une action importante, aussi ce bouton est il coloré avec `--primary`, pour favoriser sa visibilité.
 
@@ -52,7 +52,7 @@ C'est une action importante, aussi ce bouton est il coloré avec `--primary`, po
 
 ## Alerte ##
 
-Lorsqu'une alerte est remontée à l'utilisateur, [un composant alert](https://getbootstrap.com/docs/4.5/components/alerts/#link-color)e est utilisé. Il contient le motif de l'alerte, et propose une action qui permet de filtrer la liste et de ne remonter que les résultats correspondant au message. On choisira entre les couleurs `--warning` (jaune, criticité moyenne et faible) et `--alert` (rouge, information critique) pour déterminer la criticité de l'alerte.
+Lorsqu'une alerte est remontée à l'utilisateur, [un composant alert<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/alerts/#link-color)e est utilisé. Il contient le motif de l'alerte, et propose une action qui permet de filtrer la liste et de ne remonter que les résultats correspondant au message. On choisira entre les couleurs `--warning` (jaune, criticité moyenne et faible) et `--alert` (rouge, information critique) pour déterminer la criticité de l'alerte.
 
 ## Liste ##
 
@@ -76,7 +76,7 @@ Plus de détails sur la vue [tableaux](comp.tableaux.html), et notamment sur le 
 
 ![ capture  ](assets/images/gabarits.liste-6.png)
 
-La vue *grille* est constituée [de cartes avec titre et sous-titre](https://getbootstrap.com/docs/4.5/components/card/#titles-text-and-links). Chaque carte est établie sur 4 colonnes de largeur (à ajuster en fonction des informations à remonter dans chacune).
+La vue *grille* est constituée [de cartes avec titre et sous-titre<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/card/#titles-text-and-links). Chaque carte est établie sur 4 colonnes de largeur (à ajuster en fonction des informations à remonter dans chacune).
 
 <div class="card" style="width: 22rem; margin-bottom: 24px;">
   <div class="card-body">

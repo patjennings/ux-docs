@@ -7,7 +7,7 @@ category: "composants"
 * table of contents
 {:toc}
 
-Le principe de [grille](https://getbootstrap.com/docs/4.5/layout/grid/) est utilisé sur toute l'interface. Lorsqu'il sera évoqué un élément basé sur une largeur de 4 ou de 6 colonnes, cela sera basé sur la grille évoquée ici.
+Le principe de [grille<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/layout/grid/) est utilisé sur toute l'interface. Lorsqu'il sera évoqué un élément basé sur une largeur de 4 ou de 6 colonnes, cela sera basé sur la grille évoquée ici.
 
 Pour la zone de contenu, les spécifications sont données pour une largeur de 16 colonnes. Les gouttières feront `16px`.
 
@@ -36,4 +36,4 @@ Dans la documentation, lorsqu'il sera défini qu'un élement `#item` est basé s
 </div>
 ```
 
-> Plus d'éléments sur [la construction de grille avec Bootstrap](https://getbootstrap.com/docs/4.5/layout/grid/).
+> Plus d'éléments sur [la construction de grille avec Bootstrap<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/layout/grid/).

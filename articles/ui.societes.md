@@ -116,7 +116,7 @@ On navigue entre ces deux sous-parties grâce à un [*button group* <i class="ic
 
 
 ##### Évaluation #####
-L'écran affiche, sous [forme de cartes](https://getbootstrap.com/docs/4.5/components/card/#titles-text-and-links), les données d'évaluation de la société, et des retours statistiques.
+L'écran affiche, sous [forme de cartes<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/card/#titles-text-and-links), les données d'évaluation de la société, et des retours statistiques.
 
 Sur les 8 premières colonnes, à gauche, on dispose l'une au dessus de l'autre les cartes *finances*, *qualité* et *logistique*. Le titre de la carte est le style proposé par le composant de base.
 L'intérieur de la carte est composé d'une grille de 12 colonnes. Sur 4 colonnes, on met en place les indicateurs pour chaque carte :

@@ -28,7 +28,7 @@ Une [zone de recherche avec filtre](ux.recherche.html#recherche-contextuelle) pe
 
 ## Indicateurs graphiques ##
 
-Chaque graphique est présenté dans [une carte avec titre et sous-titre](https://getbootstrap.com/docs/4.5/components/card/#titles-text-and-links). Il doit pouvoir y avoir deux graphiques sur la largeur de la zone principale. Une carte est définie sur une largeur de 8 colonnes. 
+Chaque graphique est présenté dans [une carte avec titre et sous-titre<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/card/#titles-text-and-links). Il doit pouvoir y avoir deux graphiques sur la largeur de la zone principale. Une carte est définie sur une largeur de 8 colonnes. 
 
 Le graphique est généré avec ChartJS (voir [graphiques](comp.graphiques.html)), en utilisant les couleurs supplémentaires définies dans la partie [couleurs](comp.couleurs.html)
 

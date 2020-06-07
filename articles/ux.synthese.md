@@ -13,16 +13,16 @@ La conception fait système : si un utilisateur a appris qu'il doit aller cherch
 
 Avant d'envisager de créer un nouveau composant pour une fonctionnalité qui n'est pas décrite dans cette documentation, il conviendra d'envisager utiliser les éléments disponibles actuellement. Cela a deux effets bénéfiques : il n'est pas nécessaire de développer un composant _ad hoc_, et on bénéficie de l'apprentissage effectué par les utilisateurs sur le reste de l'application.
 
-**Tous les éléments de cette documentation, mis bout à bout, contribue à améliorer l'efficacité de l'utilisateur.**
+> Ce sont les éléments mis en oeuvre dans cette documentation qui, mis bout à bout, contribuent à améliorer l'efficacité et la satisfaction de l'utilisateur.
 
 ## Documentation de l'interface ##
 
 Il est important de documenter au maximum l'utilisation du produit, afin que l'utilisateur sache seul effectuer les tâches. Cela passe par plusieurs moyens, qui seront employés par l'utilisateur de façon différente à mesure qu'il acquiert de l'expérience dans l'utilisation du produit :
-- **Proposer un tour de l'interface** lors de sa première connexion (*on-boarding*). Des outils tels que [Intro.js](https://introjs.com/example/hello-world/index.html) sont dédiés à cette fonction
+- **Proposer un tour de l'interface** lors de sa première connexion (*on-boarding*). Des outils tels que [Intro.js<i class="ico">external_link</i>](https://introjs.com/example/hello-world/index.html) sont dédiés à cette fonction
 - **Donner un libellé explicite** et _human-readable_ aux actions de l'interface
 - Offrir à l'utilisateur des **informations près des actions** qui pourraient lui poser question (cf. les explications présentes sous les libellés, [dans les formulaires](comp.modales.html#modification))
 - Si une anomalie est remontée suite à une action non conforme de l'utilisateur, celui-ci doit avoir **un retour lui proposant des indices** sur la façon d'avancer dans sa tâche
-- **Fournir une documentation complète**, dans une section dédiée du site produit e.g. (Voir l'entrée aide du menu utilisateur). Cette documentation peut prendre plusieurs aspects : une base de connaissance (voir [Invision](https://support.invisionapp.com/hc/en-us/categories/360001714731-Knowledge-Base)), des tutoriaux sous [forme d'articles](https://glyphsapp.com/tutorials) ou sous forme de vidéos. En plus du site produit présentant ses avantages, cette documentation permet à un potentiel utilisateur d'entrer plus avant dans le produit. De multiples sociétés (voir Intercom, Wistia, Sketch, Evernote) ont des documentations disponibles publiquement qui permettent, de *l'extérieur*, d'avoir une bonne connaissance du produit et, de *l'intérieur*, de parfaire son utilisation et d'être plus efficace
+- **Fournir une documentation complète**, dans une section dédiée du site produit e.g. (Voir l'entrée aide du menu utilisateur). Cette documentation peut prendre plusieurs aspects : une base de connaissance (voir [Invision<i class="ico">external_link</i>](https://support.invisionapp.com/hc/en-us/categories/360001714731-Knowledge-Base)), des tutoriaux sous [forme d'articles<i class="ico">external_link</i>](https://glyphsapp.com/tutorials) ou sous forme de vidéos. En plus du site produit présentant ses avantages, cette documentation permet à un potentiel utilisateur d'entrer plus avant dans le produit. De multiples sociétés (voir Intercom, Wistia, Sketch, Evernote) ont des documentations disponibles publiquement qui permettent, de *l'extérieur*, d'avoir une bonne connaissance du produit et, de *l'intérieur*, de parfaire son utilisation et d'être plus efficace
 
 En plus de donner à l'utilisateur des informations directes sur l'utilisation du produit, lui fournir de la connaissance engage une dynamique vertueuse : plus l'utilisateur acquiert de culture sur le produit, plus il l'adopte, et plus il s'en fait l'avocat autour de lui.
 
@@ -65,7 +65,7 @@ Aussi appelée *sous-navigation*. Chaque objet est lié à plusieurs typologies 
 
 #### Navigation de troisième niveau ####
 
-Il est parfois nécessaire d'avoir à subdiviser un contenu à ce niveau de profondeur. On utilisera alors pour cela des [*button groups* ](https://getbootstrap.com/docs/4.5/components/button-group/#basic-example).
+Il est parfois nécessaire d'avoir à subdiviser un contenu à ce niveau de profondeur. On utilisera alors pour cela des [*button groups*<i class="ico">external_link</i> ](https://getbootstrap.com/docs/4.5/components/button-group/#basic-example).
 
 <div class="btn-group btn-group-toggle" data-toggle="buttons">
   <label class="btn btn-primary active">

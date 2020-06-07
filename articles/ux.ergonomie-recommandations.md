@@ -28,11 +28,11 @@ Toutes les actions seront indiquées à l'infinitif : *Envoyer le message*, *lan
 On tâche d'utiliser les articles pour les libellés d'action : l'interface utilisateur essaie de parler un langage humain, surtout dans les actions et les alertes. 
 > On préféra utiliser le libellé "modifier l'évaluation" plutôt que "modifier évaluation"
 
-Pour les actions *binaires* (checkboxes, principalement), on respectera le sens de l'action. Ainsi, une checkbox activé indiquera une possibilité supplémentaire pour l'utilisateur, et non une restriction.
+Pour les actions *binaires* (checkboxes, principalement), on respectera le sens de l'action. Ainsi, une checkbox activé indiquera une possibilité supplémentaire pour l'utilisateur, et non une restriction. Par exemple, cette forme est contre-indiquée, dans la mesure où **l'activation de la checkbox induit une restriction** pour l'utilisateur (inversion des sens d'action).
 
 > <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked><label class="form-check-label" for="defaultCheck1">   Ne peut pas lancer de consultations</label></div>
 
-Cette forme est contre-indiquée, dans la mesure où **l'activation de la checkbox induit une restriction** pour l'utilisateur (inversion des sens d'action). On préférera donc utiliser cette forme-ci :
+On préférera donc utiliser cette forme-ci, qui produit le même effet :
 
 > <div class="form-check"><input class="form-check-input" type="checkbox" value="" id="defaultCheck1"><label class="form-check-label" for="defaultCheck1">   Lancer des consultations</label></div>
 
@@ -40,11 +40,11 @@ Encore une fois, cette logique traversant l'interface, il sera plus facile pour 
 
 ## Champs de formulaires ##
 
-Les champs d'un formulaire de création ou de modification doivent être regroupés par 
+Les champs d'un formulaire de création ou de modification doivent être regroupés par groupes logiques.
 
-On pourra aussi les séparer par des titres, et ainsi clarifier le découpage du formulaire pour l'utilisateur.
+On pourra également les séparer par des titres, et ainsi clarifier le découpage du formulaire pour l'utilisateur.
 
-<hr/>
+> Voir les formulaires dans [Modales](comp.modales.html#modification)
 
 Il est important que les formulaires aient une taille qui correspondent à la donnée. C'une indication pour l'utilisateur, et cela facilitera son utilisation.
 

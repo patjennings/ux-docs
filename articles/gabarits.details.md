@@ -34,7 +34,7 @@ Décomposé en deux parties
 Sur 8 colonnes, on trouve l'identité de l'objet :
 - son nom `<h3>`
 - des informations parentes (un nom de client) `<p class="text-muted">`
-- le type de l'objet, éventuellement affiché avec un [pill-badge](https://getbootstrap.com/docs/4.5/components/badge/#pill-badges)
+- le type de l'objet, éventuellement affiché avec un [pill-badge<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/badge/#pill-badges)
 - l'identifiant (ID00000) `<p class="text-muted">`
 
 #### Informations dynamiques ####
@@ -95,7 +95,7 @@ Dans le cas d'un dossier, on affiche les éléments suivants :
   - Un badge affichant le type du dossier (affaire, appel d’offres, devis ou projet) (badge). Chaque caractéristique prendra une des couleurs personnalisés
 - Un second groupe les informations secondaires
   - pour chacune, on affiche le libellé avec `<p class="text-muted">` et la valeur avec `<p>`
-- Enfin, on ajoute un [bouton de style outline](https://getbootstrap.com/docs/4.5/components/buttons/#outline-buttons), accompagné d'une icone `arrowright`, qui permet d'accéder au dossier
+- Enfin, on ajoute un [bouton de style outline<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/buttons/#outline-buttons), accompagné d'une icone `arrowright`, qui permet d'accéder au dossier
 
 On tâchera de séparer par un espace plus important (`64px` min. dans l'idéal) ces trois groupes de données (principales, secondaires, accès).
 
@@ -118,9 +118,9 @@ Le clic sur l'option `Modifier` ouvre une [fenêtre modale](comp.modales.html) q
 
 ## Onglets ##
 
-[Les onglets](https://getbootstrap.com/docs/4.5/components/navs/#tabs) permettent de naviguer au sein de chaque objet (voir Naviguer).
+[Les onglets<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/navs/#tabs) permettent de naviguer au sein de chaque objet (voir Naviguer).
 
-Les informations provenant d'autres objets sont alignés à gauche. Ils peuvent accueillir un [*pill-badge*](https://getbootstrap.com/docs/4.5/components/badge/#pill-badges) qui leur permet de remonter une quantité d'éléments notables sous cet onglet.
+Les informations provenant d'autres objets sont alignés à gauche. Ils peuvent accueillir un [*pill-badge*<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/badge/#pill-badges) qui leur permet de remonter une quantité d'éléments notables sous cet onglet.
 
 ![ capture ](assets/images/gabarits.details-8.png)
 
@@ -133,4 +133,4 @@ Les éléments _joints_ (notes ou documents) sont quant à eux alignés sur la d
 
 Les zones dont l'affichage est contrôlé par les onglets sont développées dans les sections correspondantes ([dossiers](ui.dossiers.html), [sociétés](ui.societes.html), [articles](ui.articles.html), etc.).
 
-Si cette zone de contenu affiche un nouveau niveau de navigation, on utilise un composant [*button group*](https://getbootstrap.com/docs/4.5/components/button-group/#basic-example) pour contrôler l'affichage.
+Si cette zone de contenu affiche un nouveau niveau de navigation, on utilise un composant [*button group*<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/button-group/#basic-example) pour contrôler l'affichage.

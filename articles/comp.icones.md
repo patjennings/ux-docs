@@ -9,7 +9,7 @@ category: "composants"
 
 ![ illustration ](assets/images/ui.icones.png)
 
-Toutes les icones utilisées dans l'interface sont tirées du [jeu d'icones Pajeweic](http://platform.thomasguesnon.net/pajeweic/). Lorsqu'une icone est évoquée dans cette documentation, elle est référencée par la chaine de caractère qui permet de l'afficher.
+Toutes les icones utilisées dans l'interface sont tirées du [jeu d'icones Pajeweic<i class="ico">external_link</i>](http://platform.thomasguesnon.net/pajeweic/). Lorsqu'une icone est évoquée dans cette documentation, elle est référencée par la chaine de caractère qui permet de l'afficher.
 
 ## Utilisations ##
 
@@ -23,7 +23,7 @@ Après avoir intégré le jeu d'icones, on appelle un élément de la façon sui
 > 
 > <i class="ico ico-medium">cog</i>
 
-[Visualiser le référentiel des icones disponibles dans Pajeweic](http://platform.thomasguesnon.net/pajeweic/)
+[Visualiser le référentiel des icones disponibles dans Pajeweic<i class="ico">external_link</i>](http://platform.thomasguesnon.net/pajeweic/)
 
 On peut appliquer une classe `ico-small`, `ico-medium` ou `ico-large`. Ces classes permettent d'ajuster la taille de l'icone.
 

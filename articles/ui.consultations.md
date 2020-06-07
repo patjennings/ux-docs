@@ -19,7 +19,7 @@ Chaque ligne du tableau remonte, par défaut, ces informations
 - La société `<p><strong/>`
 - L'article `<p>`
 - Le dossier affilié `<p class="text-muted"><strong/>` et `<p class="text-muted">`
-- le taux de benchmark. Le composant [progress](https://getbootstrap.com/docs/4.5/components/progress/) est utilisé pour ce faire. Il remonte la proportion d'offres reçues en regard des demandes effectuées
+- le taux de benchmark. Le composant [progress<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/progress/) est utilisé pour ce faire. Il remonte la proportion d'offres reçues en regard des demandes effectuées
 - Les quantités `<p>`
 - La date de création `<p class="text-muted">`
 - L'icône `notes` si la consultation contient une note

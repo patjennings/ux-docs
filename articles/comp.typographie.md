@@ -7,7 +7,13 @@ category: "composants"
 * table of contents
 {:toc}
 
-La police de caractère utilisée dans l'interface est la [Lato](https://fonts.google.com/specimen/Lato), de Google. Elle est choisi pour son élégance et sa lisibilité, aussi bien en texte qu'en titrage.
+La police de caractère utilisée dans l'interface est la [Lato<i class="ico">external_link</i>](https://fonts.google.com/specimen/Lato), de Łukasz Dziedzic. Elle est choisi pour son élégance et sa lisibilité, aussi bien en texte qu'en titrage.
+
+Dans l'interface, on utilisera les styles suivants :
+- Normal
+- Italic
+- Bold
+- Bold Italic
 
 ![ Spécimen rapide ](assets/images/ui.typographie.png)
 

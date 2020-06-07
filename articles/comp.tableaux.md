@@ -11,7 +11,7 @@ La vue tableau est utilisé dans plusieurs endroits de l'interface, et remonte u
 
 ## Base ##
 
-Pour chacun de ces affichages, on utilsera le composant [tableau](https://getbootstrap.com/docs/4.5/content/tables/) de Bootstrap. On appliquera une classe `text-muted` aux en-têtes.
+Pour chacun de ces affichages, on utilsera le composant [tableau<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/content/tables/) de Bootstrap. On appliquera une classe `text-muted` aux en-têtes.
 
 On utilisera différents éléments dans chaque ligne de tableau, qui permettront de caractériser et de hiérarchiser l'information
 
