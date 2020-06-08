@@ -37,6 +37,17 @@ Par défaut (options minimum), tout utilisateur voit ses enregistrements et les 
 
 Cette *super-option* d'intervention totale revient à cocher toutes les options d'un utilisateur, et ceci pour toute autre utilisateur que soi-même.
 
+<hr/>
+
+Ci-dessous, l'exemple d'une configuration de base pour un utilisateur. Il n'a accès qu'à ses enregistrements, et à ceux de son site d'Erdeven, et peux créer des dosiers et effectuer des demandes d'achat.
+<br/><br/>
+![multi-1](assets/images/ux.multi-1.png)
+<br/><br/>
+En cochant l'option "Voir tous les sites", comme ci-dessous, la possibilité d'intervenir sur tout lui est alors ouverte. Certains sites peuvent également être exclues de son périmètre (ici, il peut tout voir sauf *Quimper*).
+
+Dès qu'un nouveau site est ajouté au système, il pourra le voir, et il faudra venir exclure manuellement ce nouveau site pour lui retirer.<br/><br/>
+![multi-1](assets/images/ux.multi-2.png)
+
 ## Édition ##
 
 Les autres paramètres ouvrent le droit à effectuer plus ou moins d'actons : cela revient à donner la possibilité d'écrire plus ou moins de données dans le système.
