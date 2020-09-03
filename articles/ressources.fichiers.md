@@ -19,6 +19,6 @@ category: "ressources"
 ## Liens ##
 - [Bootstrap<i class="ico">external_link</i>](https://getbootstrap.com/)
 - La police [Lato sur Google Fonts<i class="ico">external_link</i>](https://fonts.google.com/specimen/Lato?query=lato)
-- La [police d'icones Pajeweic<i class="ico">external_link</i>](https://framagit.org/patjennings/webfont-icon), et son [référentiel<i class="ico">external_link</i>](https://www.thomasguesnon.fr/pajeweic/)
+- La [police d'icones Pajeweic<i class="ico">external_link</i>](https://framagit.org/patjennings/webfont-icon), et son [référentiel<i class="ico">external_link</i>](https://platform.thomasguesnon.net/pajeweic/)
 - [Chart.js<i class="ico">external_link</i>](https://www.chartjs.org/) 
 - [Intro JS<i class="ico">external_link</i>](https://introjs.com/) 
