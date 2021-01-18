@@ -25,7 +25,7 @@ baseurl: "/directory/espace-client/cobuy/livraison/documentation.site" # the sub
 # include:
 #    .htaccess
 
-category-list: [ux, composants, gabarits, ui, ressources]
+category-list: [ux, composants, gabarits, ui, ressources, sprints]
 
 sass:
   sass_dir: assets/_sass
