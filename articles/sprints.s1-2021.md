@@ -77,7 +77,7 @@ En ce qui concerne le nom principal, affiché en gras : Certains objet ont un no
 
 ---
 
-Le principe de mise en page évolue vers quelque chose de plus simple pour ce composant. Au lieu de répartir le contenu des données sur une grille, on les affichera les unes à côté des autres, horizontalement (en `flex-display : row`, par exemple). Les colonnes s'aditionnant ainsi, chacune ayant une largeur relative à son contenu.
+Le principe de mise en page évolue vers quelque chose de plus simple pour ce composant. Au lieu de répartir le contenu des données sur une grille, on les affichera les unes à côté des autres, horizontalement (en `flex-direction : row`, par exemple). Les colonnes s'aditionnant ainsi, chacune ayant une largeur relative à son contenu.
 
 ---
 
