@@ -7,7 +7,6 @@ category: "sprints"
 * table of contents
 {:toc}
 
-
 ## Informations ##
 On peut consulter les informations via deux types d'affichage :
 - une vue *liste*, affichée seulement dans une modale
@@ -163,3 +162,12 @@ Lorsqu'un site est sélectionné, les données globales correspondent alors à c
 ## Liaison entre objets ##
 Règle générale à appliquer partout : toute référence faite, dans un tableau, à un objet qui s'appuie sur une vue *show*, doit posséder un accès vers celle-ci. On affichera un bouton doté d'une simple icone `arrowright` (couleur _primary_ au rollover) à droite de la référence ou, à défaut, à droite du titre.
 
+
+## Recommandations générales ##
+Sauf contre-indication d'usage, il faudra veiller à passer en minuscules toutes les chaînes de caractères affichées en capitales, en utilisant l'une ou l'autre de ces propriétés CSS
+
+``` css
+text-transform : lowercase | capitalize
+```
+
+Ou en utilisant une fonction, côté client, qui modifie l'affichage des données extraites de la base avant de les montrer à l'utilisateur.
