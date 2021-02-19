@@ -107,7 +107,12 @@ cursor: n-resize;
 ```
 
 ## Modales ##
-Toutes les fenêtres modales ont été revues. Certains champs ont été redisposés pour grouper l'information de façon logique, et faciliter la compréhension de l'utilisateur. Les mises à jour importantes sont les suivantes
+
+<div class="alert alert-warning" role="alert">
+  Ces informations ne sont plus à jour. Elles sont reprises et modifiées dans le sprit suivant (sprint 2)
+</div>
+
+Toutes les fenêtres modales ont été revues. Certains champs ont été redisposés pour grouper l'information de façon logique, et faciliter la compréhension de l'utilisateur. Les mises à jour importantes sont les suivantes :
 
 - **Des séparateurs** (couleur `#DFDFDF`) sont utilisés pour répartir les groupes de champs de façon logique
 - La `largeur de la modale` a été revue. Elle fait désormais `720px`, et est disposée à `64px` du bord haut du `viewport`
