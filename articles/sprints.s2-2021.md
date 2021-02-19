@@ -11,7 +11,7 @@ category: "sprints"
 
 ### Amélioration de l'onglet *Qualité* ###
 
-#### évaluations ####
+#### Évaluations ####
 
 Cet onglet est présenté en deux colonnes : 
 - à gauche, les valeurs, renseignées régulièrement par l'utilisateur à cet endroit-même
@@ -34,7 +34,7 @@ La valeur en lecture est remplacée par un tryptique
 ###### Modale ######
 L'autre option est d'afficher une modale à l'utilisateur, contenant le champ et la valeur à renseigner
 
-#### non-conformité ####
+#### Non-conformité ####
 Les non conformités s'affichent sous forme de liste
 
 Nouveauté : les archives fermées sont affichées avec un icone `archive`, et sont positionnées en bas de la liste.
@@ -185,3 +185,5 @@ La réponse est arrivée, le formulaire est de nouveau affichée avec les nouvea
 
 > La solution proposée rend aussi peu visible que possible cette contrainte pour l'utilisateur. Ici, elle n'est visible que par le bouton `Continuer` qui se substitue au bouton `Valider`, en bas à droite de la modale.
 
+## Liens ##
+- Prototype : <https://www.figma.com/proto/i5jtbAaIPN3Xq4u5Cg7qvv/%C3%89volutions-2021?node-id=183%3A30991&scaling=min-zoom>
