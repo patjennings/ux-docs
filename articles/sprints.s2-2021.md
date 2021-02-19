@@ -46,7 +46,7 @@ Pour rouvrir une non conformités, on cliquera sur les points d'édition de cell
 
 --- 
 
-L'icone et le texte sont colorées avec `secondary`, et les fonds avec `light`.
+L'icone et le texte sont colorées avec `--secondary`, et les fonds avec `--light`.
 
 #### Conformité documentaire ####
 
@@ -69,7 +69,7 @@ synthèse;
 L'onglet Achats affiche par défaut une synthèse. On affiche une carte, contenant chacune :
   * un titre
   * un sous-titre, si nécessaire, explicitant la donnée
-  * un bloc étiquette/valeur, avec indice d'évolution (flèche montante ou descendante + couleur `primary` ou `danger`). La valeur set affichée avec `h4`
+  * un bloc étiquette/valeur, avec indice d'évolution (flèche montante ou descendante + couleur `--primary` ou `--danger`). La valeur set affichée avec `h4`
   * un bloc étiquette/valeur indiquant la valeur précédente. La valeur est affichée avec `h5`
 
 > Une cersion alternative de ces cartes est également proposée, avec l'affichage d'un graphe d'évolution de la valeur
@@ -99,11 +99,11 @@ Ici, c'est une simple reprise de listes. On signale seulement la provenance de l
 La hiérarchie des catégories est plus marquée. Cet affichage passe par deux modifications
   * Augmentation de l'identation des items, en fonction de leur position dans la hiérarchie. On ajoute `20px` à chaque nouveau niveau
   * Un style par niveau
-	* niveau 1 : font-weight: 700, couleur `dark`
-	* niveau 2 : font-weight: 400, couleur `dark`
+	* niveau 1 : font-weight: 700, couleur `--dark`
+	* niveau 2 : font-weight: 400, couleur `--dark`
 	* niveau 3 : font-weight: 400, couleur `#6c757d`
 	* niveau 4 : font-weight: 400, font-style; italic, couleur `#6c757d`
-	* niveau 5 : font-weight: 400, font-style; italic, couleur `light-grey`
+	* niveau 5 : font-weight: 400, font-style; italic, couleur `--light-grey`
 
 ## Informations fournisseur ##
 
@@ -111,14 +111,14 @@ La page des informations fournisseur se compose de la sorte :
   * les données générales (SIRET, type de société, etc.) sont présentées sous forme d'un tableau, qui affiche label/valeur (label en gras)
   * Ensuite, chaque partie suivante est introduite par un titre `h5`, et affiche des [cartes](https://getbootstrap.com/docs/5.0/components/card/#titles-text-and-links)
 	* Les informations financières : chaque carte affiche le résultat de l'année et de l'année -1 résultat année avec évolution et couleur tendance :
-		* Pour le résultat année : un bloc étiquette/valeur, avec indice d'évolution (flèche montante ou descendante + couleur `primary` ou `danger`). La valeur set affichée avec `h4`
-		* Pour le résultat année-1 : un bloc étiquette/valeur indiquant la valeur précédente. La valeur est affichée avec `h5` (couleur par défaut `dark`)
+		* Pour le résultat année : un bloc étiquette/valeur, avec indice d'évolution (flèche montante ou descendante + couleur `--primary` ou `--danger`). La valeur set affichée avec `h4`
+		* Pour le résultat année-1 : un bloc étiquette/valeur indiquant la valeur précédente. La valeur est affichée avec `h5` (couleur par défaut `--dark`)
 	Les données de l'organigramme et les références sont affichées dans une carte simple (titre + description)
 
 ### Informations de mise à jour ###
 Au début de la liste, on affiche les informations de mise à jour de la fiche.
   * Si la mise à jour est ok, on affiche simplement la date de la mise à jour (avec `text-muted`)
-  * Si la mise à jour est trop ancienne, on affiche également la date de la mise à jour (avec `text-muted`). Mais, avant, on aura affiché un bandeau ― couleur `danger`― qui avertit de l'obsolescence des données actuellement affichées
+  * Si la mise à jour est trop ancienne, on affiche également la date de la mise à jour (avec `text-muted`). Mais, avant, on aura affiché un bandeau ― couleur `--danger`― qui avertit de l'obsolescence des données actuellement affichées
 
 ### Modification ###
 
@@ -178,7 +178,7 @@ Le formulaire secondaire, qu'on peut appeler au sein d'une modale, est affichée
 
 ## Cas particulier : l'ajout d'une demande d'achat ##
 Dans le cas de l'ajout d'une demande d'achat, une requête, et une réponse, sont attendues par le système. C'est un cas particulier, qui a été résolu de la sort
-Au bas de la première étape du formulaire, le bouton pour poursuivre l'action , n'est pas de fond `primary`, mais possède juste un contour (`class="outline"`).
+Au bas de la première étape du formulaire, le bouton pour poursuivre l'action , n'est pas de fond `--primary`, mais possède juste un contour (`class="outline"`).
 Au clic sur ce bouton, un chargemetn s'effectue. La requête est lancée, et attend la réponse du serveur.
 La réponse est arrivée, le formulaire est de nouveau affichée avec les nouveaux champs liés à cette réponse. L'utilisateur est positionné au niveau de ces nouveaux champs, un nouvel élément de menu est apparu dans la navigation interne. Au bas de la modale, la bouton `Continuer` est remplacé par le bouton `Valider`, de fond vert.
 
