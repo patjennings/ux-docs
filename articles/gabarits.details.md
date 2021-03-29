@@ -31,24 +31,24 @@ Ce composant affiche trois informations principales :
 #### Identification ####
 
 Décomposé en deux parties
-Sur 8 colonnes, on trouve l'identité de l'objet :
+~~Sur 8 colonnes~~, on trouve l'identité de l'objet :
 - son nom `<h3>`
 - des informations parentes (un nom de client) `<p class="text-muted">`
 - le type de l'objet, éventuellement affiché avec un [pill-badge<i class="ico">external_link</i>](https://getbootstrap.com/docs/4.5/components/badge/#pill-badges)
 - l'identifiant (ID00000) `<p class="text-muted">`
 
 #### Informations dynamiques ####
-Sur les 8 colonnes suivantes, on retrouvera des informations qui pourront être par nature plus dynamiques, comme une échéance, un budget, etc.
+~~Sur les 8 colonnes suivantes~~, on retrouvera des informations qui pourront être par nature plus dynamiques, comme une échéance, un budget, etc.
 Il y a deux façons de traiter une de ces données dynamiques. 
 
-Si la donnée est centrale (*e.g.* le budget d'un dossier), on l'affichera sur **2 colonnes** de la façon suivante :
+Si la donnée est centrale (*e.g.* le budget d'un dossier), ~~on l'affichera sur **2 colonnes** de la façon suivante~~ :
 
 - libellé `<p class="text-muted">`
 - en dessous : la valeur `<h3>` ou `<p>`
 
 ![exemple INFO IMPORTANTE](assets/images/gabarits.details-4.png)
 
-Pour toute autre information, on affichera l'information *inline*, sur **3 à 4 colonnes**
+Pour toute autre information, on affichera l'information *inline*, ~~sur **3 à 4 colonnes**~~
 - libellé `<p class="text-muted">` 
 - *inline*, la valeur `<p>`
 
@@ -59,19 +59,22 @@ Pour toute autre information, on affichera l'information *inline*, sur **3 à 4 
 ![ capture ](assets/images/gabarits.details-6.png)
 
 Décomposé en deux parties
-Sur 8 colonnes, on trouve groupés :
+~~Sur 8 colonnes~~, on trouve groupés :
 - le nom du client `<p class="text-muted">`
 - le nom du dossier affiché `<h3>`
 - le numéro de référence du dossier affiché `<p class="text-muted">`
 - le type du dossier (affiché dans un badge)
 
-Sur les 8 colonnes suivantes, on affiche les informations de budget, de délai, ainsi que l'échéance et les révisions. Ces informations n'ont pas la même importance, aussi nous pouvons les traiter de deux façons différentes :
-- Sur 2 colonnes chacun, on affiche budget et délai
+~~Sur les 8 colonnes suivantes~~, on affiche les informations de budget, de délai, ainsi que l'échéance et les révisions. Ces informations n'ont pas la même importance, aussi nous pouvons les traiter de deux façons différentes :
+- ~~Sur 2 colonnes chacun~~, on affiche budget et délai
   - le libellé avec `<p class="text-muted">`
   - la valeur avec `<h3>`
   - éventuellement, une information en `<p class="small text-muted">` (ici, la )
 
-La dernière colonne sert à placer le bouton d'accès à la modification de l'élément (icone `dots_v`)
+~~La dernière colonne sert à placer le bouton d'accès à la modification de l'élément (icone `dots_v`)~~
+
+> #### Mise à jour
+> Une mise à jour du principe de mise en page de l'en-tête [a été intégré au sprint 2](sprints.s1-2021.html#mises-à-jour). On s'affranchit du principe de colonnes évoqué ci-dessus.
 
 #### Alerte ####
 Il est parfois nécessaire de remonter une information de premier ordre sur un élément. On utilisera pour cela, comme dans les listes, un élément Alerte, qui sera placé entre les informations générales de l'élément, et les onglets de sous-navigation.
