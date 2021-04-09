@@ -17,9 +17,7 @@ La navigation est adaptée et simplifiée. L'en-tête affiche le logo de l'achet
 
 ![menu](assets/images/s3-menu.png)
 
-Les entrées `Tableau de bord`, `Société` et `Qualité` affichent directement les pages correspondantes.
-
-Ce n'est pas le cas des entrées sous `Achats`, où l'utilisateur passera par une [vue Liste](gabarits.listes.html) : on doit donc afficher l'arbre à cet endroit. Cela est nécessaire pour ne pas introduire de lourdeur au niveau de la navigation.
+Contrairement à l'application côté *Acheteur* Les entrées affichent directement les pages correspondantes.
 
 ### Tableau de bord ###
 
@@ -56,37 +54,36 @@ Dans l'[*en-tête*](gabarits.details.html#en-tête) de la vue détail de la sect
 
 ![col-gauche](assets/images/s3-portail-300.png)
 
-Le principe est similaire our la section *Qualité*, sans les informations générales telles que `pays`, `devise`, etc.
+Le principe est similaire pour la section *Qualité*, sans les informations générales telles que `pays`, `devise`, etc.
 
 ![col-gauche](assets/images/s3-portail-400.png)
 
 > On déterminera s'il est nécessaire d'afficher au fournisseur les informations *ERP*, *Utilisateur* ou *site*, ces informations internes à l'acheteur n'étant pas forcément pertinentes ou nécessaires pour le fournisseur.
 
 ### Achats ###
-L'arbre de navigation est donc déployé, et toute la section est structuré sur le principe suivant 
+La section Achats possède un comportement hybride.
 
 ```text
-+--------+       +-------------+       +--------------+       +---------------+
-|  MENU  |  ==>  |  VUE LISTE  |  ==>  |  VUE DÉTAIL  |  ==>  |  VUE LIGNE *  |
-+--------+       +-------------+       +--------------+       +---------------+
++--------+       +---------------+       +--------------+       +---------------+
+|  MENU  |  ==>  |   EN-TÊTE     |       |   EN-TÊTE    |  ==>  |  VUE LIGNE ** |
++--------+       +---------------+       +--------------+       +---------------+
+                 | LISTE OBJETS *|  ==>  | DÉTAIL OBJET |
+                 +---------------+       +--------------+
 
-* Dans le case d'une ligne d'offre ou de contrat e.g.
+* Les objets peuvent être des offres, par ex.
+** Dans le cas d'une ligne d'offre ou de contrat e.g.
 ```
-
-L'item Achats n'est pas cliquable, ce sont ses sous-entrées qui affichent les listes correspondantes (voir le [prototype](sprints.s3-2021.html#lien-prototype)). On veillera, dans les listes, à retirer les colonnes fournisseur, et d'une manière générale toutes les données qui doublonnent et n'ont pas de sens dans ce contexte de portail fournisseur (les données ne concernant qu'un seul et unique founisseur).
 
 L'exemple d'accès aux pages de [détails](gabarits.details.html) est donné pour l'entrée `Offres` du menu.
 
 ##### Principe #####
-###### Vue liste ######
+###### Vue liste objets ######
 La liste affiche toutes les offres soumises par le fournisseur
-
 
 ![offres](assets/images/s3-portail-600.png)
 
-###### Vue détail ######
-Au clic sur une offre, on affiche celle-ci, ainsi que son détail (ici, ses lignes d'offre)
-
+###### Vue Liste objets ######
+Au clic sur une offre, on affiche celle-ci, ainsi que son détail (ici, ses lignes d'offre). La partie principale (sous l'en-tête) possède son propre en-tête. Celui-ci récapitule les informations de l'offre. Il permet également de revenir à la liste complète des offres (`Revenir à la liste`).
 
 ![offres](assets/images/s3-portail-601.png)
 
