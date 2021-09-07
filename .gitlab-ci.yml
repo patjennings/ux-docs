@@ -30,7 +30,7 @@ deploy:
   dependencies:
     - build
   script:
-    - scp -rp ./public/* "$USER"@"$HOST":/var/www/client.thomasguesnon.net/directory/espace-client/cobuy/livraison/documentation.site
+    - scp -rp ./public/* "$USER"@"$HOST":/var/www/client.thomasguesnon.net/directory/espace-client/-sites/-1uvpjUPktvcV1K3mIQun
   only:
     - master
 
