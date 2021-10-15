@@ -8,12 +8,12 @@ category: "ressources"
 {:toc}
 
 ## Prototype ##
-- [Le prototype issu de la conception<i class="ico">external_link</i>](https://client.thomasguesnon.fr/espace-client/cobuy/livraison/prototype.site)
+- [Le prototype issu de la conception<i class="ico">external_link</i>](https://client.thomasguesnon.net/espace-client/cobuy/livraison/prototype.site)
 
 ## Fichiers ##
-- [Les écrans issus de la conception<i class="ico">external_link</i>](https://client.thomasguesnon.fr/espace-client/cobuy/livraison/assets/ecrans)
-- [Les logos de l'application<i class="ico">external_link</i>](https://client.thomasguesnon.fr/espace-client/cobuy/livraison/assets/logo)
-- [Fichiers de la documentation<i class="ico">external_link</i> (au 08/06/2020)](https://client.thomasguesnon.fr/espace-client/cobuy/livraison/assets/documentation)
+- [Les écrans issus de la conception<i class="ico">external_link</i>](https://client.thomasguesnon.net/espace-client/cobuy/livraison/assets/ecrans)
+- [Les logos de l'application<i class="ico">external_link</i>](https://client.thomasguesnon.net/espace-client/cobuy/livraison/assets/logo)
+- [Fichiers de la documentation<i class="ico">external_link</i> (au 08/06/2020)](https://client.thomasguesnon.net/espace-client/cobuy/livraison/assets/documentation)
 - [*Repository* de la documentation<i class="ico">external_link</i>](https://framagit.org/patjennings/cobuy-ux)
 
 ## Liens ##
